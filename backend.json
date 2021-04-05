@@ -1,7 +1,8 @@
 {
-    "Attendance NOT added successfully.": "abcdaaa",
-    "Attendance report": "fffff",
-    "Settings NOT updated successfully.": "dddd",
+    "The username or password provided is incorrect.": "ddddeeee",
+    "Attendance NOT added successfully.": "asdadsaaa att",
+    "Attendance report": "",
+    "Settings NOT updated successfully.": "",
     "Settings updated successfully.": "",
     "'{0}' added successfully": "",
     "The person deleted successfully.": "",
@@ -14,7 +15,6 @@
     "Event deleted successfully.": "",
     "Event NOT added successfully.": "",
     "Event NOT deleted successfully.": "",
-    "Event NOT updated successfully.": "",
-    "Event updated successfully.": "",
-    "The username or password provided is incorrect.": ""
+    "Event NOT updated successfully.": "dadasaa",
+    "Event updated successfully.": ""
 }
