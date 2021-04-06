@@ -1,0 +1,2680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Core_Group_GroupAddedSuccessfully" xml:space="preserve">
+    <value>Groupe a été ajouté avec succès.</value>
+  </data>
+  <data name="AttendanceNotAddedSuccessfully" xml:space="preserve">
+    <value>La participation n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="AttendanceReportExport" xml:space="preserve">
+    <value>Rapport de présence</value>
+  </data>
+  <data name="SettingsNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Les paramètres n'ont pas été mis a jour avec succès </value>
+  </data>
+  <data name="SettingsUpdatedSuccessfully" xml:space="preserve">
+    <value>Les paramètres ont été mis à jour avec succès</value>
+  </data>
+  <data name="MemberAddedSuccessfully" xml:space="preserve">
+    <value>{0}' ajouté avec succès</value>
+  </data>
+  <data name="MemberDeletedSuccessfully" xml:space="preserve">
+    <value>La personne a été supprimée avec succès</value>
+  </data>
+  <data name="MemberNotAddedSuccessfully" xml:space="preserve">
+    <value>La personne n'a pas été ajoutée avec succès</value>
+  </data>
+  <data name="MemberNotDeletedSuccessfully" xml:space="preserve">
+    <value>La personne n'a pas été suprimée avec succès</value>
+  </data>
+  <data name="MemberNotUpdatedSuccessfully" xml:space="preserve">
+    <value>La personne n'a pas été mise à jour avec succès</value>
+  </data>
+  <data name="MemberUpdatedSuccessfully" xml:space="preserve">
+    <value>La personne mise à jour avec succès</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RequiredDetailed" xml:space="preserve">
+    <value>{0} est requis</value>
+  </data>
+  <data name="ScheduleAddedSuccessfully" xml:space="preserve">
+    <value>L'événement a été ajouté avec succès</value>
+  </data>
+  <data name="ScheduleDeletedSuccessfully" xml:space="preserve">
+    <value>L'événement a été supprimé avec succès</value>
+  </data>
+  <data name="ScheduleNotAddedSuccessfully" xml:space="preserve">
+    <value>L'événement n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="ScheduleNotDeletedSuccessfully" xml:space="preserve">
+    <value>L'événement n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="ScheduleNotUpdatedSuccessfully" xml:space="preserve">
+    <value>L'événement n'a pas été mis à jour avec succès</value>
+  </data>
+  <data name="ScheduleUpdatedSuccessfully" xml:space="preserve">
+    <value>L'événement a été mis à jour avec succès</value>
+  </data>
+  <data name="UserNameOrPasswordIncorrect" xml:space="preserve">
+    <value>Le nom d'utilisateur ou mot de passe est incorrect</value>
+  </data>
+  <data name="AttendedMembers" xml:space="preserve">
+    <value>Les personnes présents</value>
+  </data>
+  <data name="NotAttendedMembers" xml:space="preserve">
+    <value>Les personnes absents</value>
+  </data>
+  <data name="UserDeleted" xml:space="preserve">
+    <value>Le(s) utilisateur(s) ont été supprimés avec succès</value>
+  </data>
+  <data name="UserNotDeleted" xml:space="preserve">
+    <value>Le(s) utilisateur(s) n'ont pas été supprimés avec succès</value>
+  </data>
+  <data name="ConfessionAddedSuccessfully" xml:space="preserve">
+    <value>La confession a été ajouté avec succès</value>
+  </data>
+  <data name="ConfessionNotAddedSuccessfully" xml:space="preserve">
+    <value>La confession n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="SMSAddedSuccessfully" xml:space="preserve">
+    <value>Le message a été envoyé avec succès</value>
+  </data>
+  <data name="SMSNotAddedSuccessfully" xml:space="preserve">
+    <value>Le message n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="PasswordChangedSuccessfully" xml:space="preserve">
+    <value>Le mot de passe a été modifié avec succès</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Le mot de passe est incorrect</value>
+  </data>
+  <data name="SMSDeletedSuccessfully" xml:space="preserve">
+    <value>Le message a été supprimés avec succès</value>
+  </data>
+  <data name="SMSNotDeletedSuccessfully" xml:space="preserve">
+    <value>Le message n'a pas été supprimés avec succès</value>
+  </data>
+  <data name="EmailDeletedSuccessfully" xml:space="preserve">
+    <value>E-mail a été supprimé avec succès</value>
+  </data>
+  <data name="EmailNotDeletedSuccessfully" xml:space="preserve">
+    <value>E-mail n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="SpiritualExerciseAddedSuccessfully" xml:space="preserve">
+    <value>La exercice spirituel a été ajouté avec succès</value>
+  </data>
+  <data name="SpiritualExerciseDeletedSuccessfully" xml:space="preserve">
+    <value>La exercice spirituel a été suprimé avec succès</value>
+  </data>
+  <data name="SpiritualExerciseNotAddedSuccessfully" xml:space="preserve">
+    <value>La exercice spirituel n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="SpiritualExerciseNotDeletedSuccessfully" xml:space="preserve">
+    <value>La exercice spirituel n'a pas été suprimé avec succès</value>
+  </data>
+  <data name="SpiritualExerciseNotUpdatedSuccessfully" xml:space="preserve">
+    <value>La exercice spirituel n'a pas été mise à jour avec succès</value>
+  </data>
+  <data name="SpiritualExerciseUpdatedSuccessfully" xml:space="preserve">
+    <value>La exercice spirituel a été mise à jour avec succès</value>
+  </data>
+  <data name="MeetingRegisterationFailed" xml:space="preserve">
+    <value>Échec de l'enregistrement!</value>
+  </data>
+  <data name="ConfessionDeletedSucessfully" xml:space="preserve">
+    <value>La confession a été supprimé avec succès</value>
+  </data>
+  <data name="ConfessionNotDeletedSucessfully" xml:space="preserve">
+    <value>La confession n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="TheSelectedMemberAddedSuccessfully" xml:space="preserve">
+    <value>La pesonne sélectionné a été ajouté avec succès</value>
+  </data>
+  <data name="ConfessionWaitingDeletedSuccessfully" xml:space="preserve">
+    <value>L'atente de confession supprimé avec succès.</value>
+  </data>
+  <data name="ConfessionWaitingNotAddedSuccessfully" xml:space="preserve">
+    <value>L'atente de confession n'a pas été ajouté avec succès.</value>
+  </data>
+  <data name="ConfessionWaitingNotDeletedSuccessfully" xml:space="preserve">
+    <value>L'atente de confession n'a pas été supprimé avec succès.</value>
+  </data>
+  <data name="TheSelectedMemberAlreadyExistinTheList" xml:space="preserve">
+    <value>La personne sélectionnée existe déjà dans la liste.</value>
+  </data>
+  <data name="SMSLimitExceed" xml:space="preserve">
+    <value>Le message ne peut pas être envoyé! Vous n'avez pas de crédit de texte suffisant</value>
+  </data>
+  <data name="ImportedMemberDeletedSuccessfully" xml:space="preserve">
+    <value>Personne supprimé avec succès.</value>
+  </data>
+  <data name="ImportedMemberNotDeletedSuccessfully" xml:space="preserve">
+    <value>La personne n'a pas été supprimée avec succès.</value>
+  </data>
+  <data name="MemberImportedSuccessfully" xml:space="preserve">
+    <value>La personne a été importée avec succès</value>
+  </data>
+  <data name="MemberNotImportedSuccessfully" xml:space="preserve">
+    <value>La personne n'a pas été importée avec succès, s'il vous plaît suivez les instructions.</value>
+  </data>
+  <data name="YouMustCorrectAllData" xml:space="preserve">
+    <value>Toutes les données doivent être corrigées</value>
+  </data>
+  <data name="VerificationEmailNotSentSuccessfully" xml:space="preserve">
+    <value>E-mail de vérification n'a pas été envoyé avec succès.</value>
+  </data>
+  <data name="VerificationEmailSentSuccessfully" xml:space="preserve">
+    <value>E-mail de vérification a été envoyé avec succès.</value>
+  </data>
+  <data name="Confirmpassword" xml:space="preserve">
+    <value>Confirmez le mot de passe</value>
+  </data>
+  <data name="MeetingName" xml:space="preserve">
+    <value>Nom du service</value>
+  </data>
+  <data name="PasswordTitle" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="TheMemberAttendedSuccessfully" xml:space="preserve">
+    <value>La personne a été présent avec succès</value>
+  </data>
+  <data name="TheMemberNotAttendedSuccessfully" xml:space="preserve">
+    <value>La personne n'a pas été présent avec succès</value>
+  </data>
+  <data name="Membernamerequired" xml:space="preserve">
+    <value>Le nom de la personne est des données requises</value>
+  </data>
+  <data name="ReportNotAddedSuccessfully" xml:space="preserve">
+    <value>La recherche n'a pas été enregistré avec succès</value>
+  </data>
+  <data name="ReportAlreadyExist" xml:space="preserve">
+    <value>Le recherche existe déjà</value>
+  </data>
+  <data name="ReportDeletedSuccessfully" xml:space="preserve">
+    <value>La recherche a été supprimé avec succès</value>
+  </data>
+  <data name="ReportNotDeletedSuccessfully" xml:space="preserve">
+    <value>Recherche n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="GeographicalDistributionReportExport" xml:space="preserve">
+    <value>Rapport de distribution géographique</value>
+  </data>
+  <data name="MemberNotFound" xml:space="preserve">
+    <value>La personne est introuvable</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="PasswordLength" xml:space="preserve">
+    <value>Mot de passe doit contenir au moins {2} caractères.</value>
+  </data>
+  <data name="MobileNumberNotValid" xml:space="preserve">
+    <value>Le numéro de mobile est invalid</value>
+  </data>
+  <data name="PhoneNumberNotValid" xml:space="preserve">
+    <value>Le numéro de téléphone est invalid</value>
+  </data>
+  <data name="sucessfully" xml:space="preserve">
+    <value>Ajouté avec succès</value>
+  </data>
+  <data name="TodayBirthday" xml:space="preserve">
+    <value>Anniversaires</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Calendrier</value>
+  </data>
+  <data name="UnlimitedMembers" xml:space="preserve">
+    <value>Nombre illimité de personnes</value>
+  </data>
+  <data name="Dollar" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="Pound" xml:space="preserve">
+    <value>EGP</value>
+  </data>
+  <data name="RegistrationPlanMember" xml:space="preserve">
+    <value>Les personnes absents</value>
+  </data>
+  <data name="RegistrationPlanTo" xml:space="preserve">
+    <value>Jusqu'à</value>
+  </data>
+  <data name="FreePrice" xml:space="preserve">
+    <value>Gratuit!</value>
+  </data>
+  <data name="DemoNotConverted" xml:space="preserve">
+    <value>Démo n'a pas été converti</value>
+  </data>
+  <data name="SwitchFailed" xml:space="preserve">
+    <value>Échec de passage à une autre service</value>
+  </data>
+  <data name="ServiceNotDeleted" xml:space="preserve">
+    <value>Le service n'est pas été supprimé avec succès</value>
+  </data>
+  <data name="EmailVerifiedSuccessfully" xml:space="preserve">
+    <value>E-mail a été vérifié avec succès</value>
+  </data>
+  <data name="ErrorInEmailVerification" xml:space="preserve">
+    <value>Erreur de vérification de l'E-mail, s'il vous plaît assurez-vous que vous avez cliqué sur le dernier lien de vérification e-mail</value>
+  </data>
+  <data name="AccountLocked" xml:space="preserve">
+    <value>Le compte a été arrêté pendant 10 minutes. Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="AddressLine" xml:space="preserve">
+    <value>Rue</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arabe</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>Date de naissance</value>
+  </data>
+  <data name="Building" xml:space="preserve">
+    <value>Numéro du bâtiment</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Pays</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Jour</value>
+  </data>
+  <data name="Directions" xml:space="preserve">
+    <value>Adresse Ligne 2</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Terminé</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exportation</value>
+  </data>
+  <data name="Flat" xml:space="preserve">
+    <value>Appartement</value>
+  </data>
+  <data name="Floor" xml:space="preserve">
+    <value>Étage</value>
+  </data>
+  <data name="GridDisplayCount" xml:space="preserve">
+    <value>&lt;span class="allpages"&gt;{0} - {1} de {2} élément&lt;/span&gt; &lt;span class="firstpage"&gt;{2} élément&lt;/span&gt;</value>
+  </data>
+  <data name="ItemsPerPage" xml:space="preserve">
+    <value>Nombre de données par page</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Personne</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Noitemstodisplay" xml:space="preserve">
+    <value>Aucun élément à afficher.</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Remarques</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>En attente</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Nom du service</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type de suivi</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="ComingTime" xml:space="preserve">
+    <value>Temps d'arrivée</value>
+  </data>
+  <data name="Enum_ChurchServiceType_Confession" xml:space="preserve">
+    <value>Confession</value>
+  </data>
+  <data name="Enum_ChurchServiceType_Meeting" xml:space="preserve">
+    <value>Réunion</value>
+  </data>
+  <data name="Enum_ChurchServiceType_Membership" xml:space="preserve">
+    <value>Abonnement</value>
+  </data>
+  <data name="Enum_FollowUpType_Visit" xml:space="preserve">
+    <value>Visite</value>
+  </data>
+  <data name="Enum_FollowUpType_All" xml:space="preserve">
+    <value>N'importe quel type</value>
+  </data>
+  <data name="Enum_FollowUpType_Phone" xml:space="preserve">
+    <value>Téléphone</value>
+  </data>
+  <data name="Enum_FollowUpType_SMS" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Femelle</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Mâle</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="Enum_ImportFilter_CorrectNew" xml:space="preserve">
+    <value>Correct (Nouveau)</value>
+  </data>
+  <data name="Enum_ImportFilter_CorrectUpdated" xml:space="preserve">
+    <value>Correct (mise à jour)</value>
+  </data>
+  <data name="Enum_ImportMemberStatus_New" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="Enum_ImportMemberStatus_Update" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="April" xml:space="preserve">
+    <value>avril</value>
+  </data>
+  <data name="August" xml:space="preserve">
+    <value>août</value>
+  </data>
+  <data name="December" xml:space="preserve">
+    <value>décembre</value>
+  </data>
+  <data name="February" xml:space="preserve">
+    <value>février</value>
+  </data>
+  <data name="January" xml:space="preserve">
+    <value>janvier</value>
+  </data>
+  <data name="July" xml:space="preserve">
+    <value>juillet</value>
+  </data>
+  <data name="June" xml:space="preserve">
+    <value>juin</value>
+  </data>
+  <data name="March" xml:space="preserve">
+    <value>mars</value>
+  </data>
+  <data name="May" xml:space="preserve">
+    <value>mai</value>
+  </data>
+  <data name="November" xml:space="preserve">
+    <value>novembre</value>
+  </data>
+  <data name="October" xml:space="preserve">
+    <value>octobre</value>
+  </data>
+  <data name="September" xml:space="preserve">
+    <value>septembre</value>
+  </data>
+  <data name="AllGroups" xml:space="preserve">
+    <value>Tous les groupes</value>
+  </data>
+  <data name="AllMembers" xml:space="preserve">
+    <value>Tous les personnes</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="Members" xml:space="preserve">
+    <value>Personnes</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>Pas de données</value>
+  </data>
+  <data name="NoGroup" xml:space="preserve">
+    <value>Pas dans un groupe</value>
+  </data>
+  <data name="SelectedMembers" xml:space="preserve">
+    <value>Les personnes sélectionnés</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>Divorcé</value>
+  </data>
+  <data name="Engaged" xml:space="preserve">
+    <value>Engagé</value>
+  </data>
+  <data name="Married" xml:space="preserve">
+    <value>Marié</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Célibataire</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>Veuf</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Inconnu</value>
+  </data>
+  <data name="Enum_ScheduleType_Groups" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="Enum_ScheduleType_Meeting" xml:space="preserve">
+    <value>Un événement</value>
+  </data>
+  <data name="Enum_Status_Pending" xml:space="preserve">
+    <value>En attente</value>
+  </data>
+  <data name="Enum_SMSStatus_Refused" xml:space="preserve">
+    <value>Refusé</value>
+  </data>
+  <data name="Enum_Status_Sent" xml:space="preserve">
+    <value>Envoyé</value>
+  </data>
+  <data name="Enum_SMSStatus_SentPartially" xml:space="preserve">
+    <value>Partiellement envoyé</value>
+  </data>
+  <data name="Enum_UserStatus_Active" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="Enum_UserStatus_PendingAcceptance" xml:space="preserve">
+    <value>Dans l'attente d'accepter d'invitation</value>
+  </data>
+  <data name="Enum_UserStatus_RejectInvitation" xml:space="preserve">
+    <value>Invitation rejeter</value>
+  </data>
+  <data name="LoginPartial_WaitingListMenu" xml:space="preserve">
+    <value>Liste d'attente</value>
+  </data>
+  <data name="LoginPartial_AttendanceRateReportMenu" xml:space="preserve">
+    <value>Rapport de fréauence</value>
+  </data>
+  <data name="LoginPartial_AttendanceReportMenu" xml:space="preserve">
+    <value>Rapport de présence</value>
+  </data>
+  <data name="LoginPartial_ChangePassword" xml:space="preserve">
+    <value>Changer le mot de passe</value>
+  </data>
+  <data name="LoginPartial_ConfessionRateReportMenu" xml:space="preserve">
+    <value>Rapport de taux de cofessions</value>
+  </data>
+  <data name="LoginPartial_ConfessionReportMenu" xml:space="preserve">
+    <value>Rapport de confession</value>
+  </data>
+  <data name="LoginPartial_ConfessionsMenu" xml:space="preserve">
+    <value>Confession</value>
+  </data>
+  <data name="LoginPartial_FollowUpMenu" xml:space="preserve">
+    <value>Suivre</value>
+  </data>
+  <data name="LoginPartial_FollowUpReportMenu" xml:space="preserve">
+    <value>Rapport de suivi</value>
+  </data>
+  <data name="FamilyReportMenu" xml:space="preserve">
+    <value>Rapport de famille</value>
+  </data>
+  <data name="LoginPartial_GeneralReports" xml:space="preserve">
+    <value>Rapports généraux</value>
+  </data>
+  <data name="LoginPartial_ProfileFieldsMenu" xml:space="preserve">
+    <value>Paramètres de profil</value>
+  </data>
+  <data name="LoginPartial_GeographicalDistribution" xml:space="preserve">
+    <value>Rapport de distribution géographique</value>
+  </data>
+  <data name="LoginPartial_MarriageReportMenu" xml:space="preserve">
+    <value>Rapport des anniversaires de mariage</value>
+  </data>
+  <data name="LoginPartial_NewMembersRateReportMenu" xml:space="preserve">
+    <value>Rapport sur le taux de nouvelles personnes</value>
+  </data>
+  <data name="LoginPartial_ReportsMenu" xml:space="preserve">
+    <value>Rapports</value>
+  </data>
+  <data name="LoginPartial_SchedulesMenu" xml:space="preserve">
+    <value>Événements</value>
+  </data>
+  <data name="LoginPartial_SessionsReportMenu" xml:space="preserve">
+    <value>Rapport de séances</value>
+  </data>
+  <data name="LoginPartial_Settings" xml:space="preserve">
+    <value>Paramètres du compte</value>
+  </data>
+  <data name="LoginPartial_SpiritualExerciseMenu" xml:space="preserve">
+    <value>Exercice spirituel</value>
+  </data>
+  <data name="LoginPartial_StatisticalReports" xml:space="preserve">
+    <value>Rapports de statistiques</value>
+  </data>
+  <data name="LoginPartial_SummaryMenu" xml:space="preserve">
+    <value>Page d'accueil</value>
+  </data>
+  <data name="LoginPartial_UsersMenu" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="Account_UserNotAddedSuccessfully" xml:space="preserve">
+    <value>Les utilisateurs n'ont pas été ajouté avec succès</value>
+  </data>
+  <data name="Account_AcceptInvitationMsg" xml:space="preserve">
+    <value>Vous avez été ajouté avec succès.</value>
+  </data>
+  <data name="Account_DemoMeeting" xml:space="preserve">
+    <value>Compte démo</value>
+  </data>
+  <data name="Account_SystemError" xml:space="preserve">
+    <value>Quelque chose a mal tourné! Veuillez réessayer plus tard.</value>
+  </data>
+  <data name="Account_ErrorMessage" xml:space="preserve">
+    <value>Les mots de passe ne sont pas identiques.</value>
+  </data>
+  <data name="Account_NewPassword" xml:space="preserve">
+    <value>Nouveau mot de passe</value>
+  </data>
+  <data name="Account_OldPassword" xml:space="preserve">
+    <value>Ancien mot de passe</value>
+  </data>
+  <data name="Account_SecurityRole" xml:space="preserve">
+    <value>Rôle</value>
+  </data>
+  <data name="Account_Servant" xml:space="preserve">
+    <value>Le responsable</value>
+  </data>
+  <data name="Account_UserAddedSuccessfully" xml:space="preserve">
+    <value>Les utilisateurs ont été ajouté avec succès</value>
+  </data>
+  <data name="Account_UsersLabel" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="Account_RolesAndPermissions" xml:space="preserve">
+    <value>Rôles et permissions</value>
+  </data>
+  <data name="Account_UserUpdatedSuccessfully" xml:space="preserve">
+    <value>L'utilisateur a été modifié avec succès</value>
+  </data>
+  <data name="Admin_Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Admin_Description" xml:space="preserve">
+    <value>La description</value>
+  </data>
+  <data name="Admin_DescriptionArabic" xml:space="preserve">
+    <value>Description arabe</value>
+  </data>
+  <data name="Admin_EditHelpItem" xml:space="preserve">
+    <value>Modifier l'article Aide</value>
+  </data>
+  <data name="Admin_HelpTitle" xml:space="preserve">
+    <value>Aidez-moi</value>
+  </data>
+  <data name="Admin_LastModifiedByNameFullName" xml:space="preserve">
+    <value>Mis à jour par</value>
+  </data>
+  <data name="Admin_LastModifiedOn" xml:space="preserve">
+    <value>Date de mise à jour</value>
+  </data>
+  <data name="Admin_Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="Admin_Title" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="Admin_TitleArabic" xml:space="preserve">
+    <value>Titre arabe</value>
+  </data>
+  <data name="Core_Email_WelcometoChMeetingsFamily" xml:space="preserve">
+    <value>Bienvenue à la famille de ChMeetings.</value>
+  </data>
+  <data name="Core_Family_Families" xml:space="preserve">
+    <value>Familles</value>
+  </data>
+  <data name="Core_FollowUp_FailedToEditFollowup" xml:space="preserve">
+    <value>Echec de mis à jour du suivi</value>
+  </data>
+  <data name="Core_FollowUp_FollowupEditedSuccessfully" xml:space="preserve">
+    <value>Suivi a été mis à jour qvec succès</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpAddedSuccessfully" xml:space="preserve">
+    <value>Suivi a été ajouté avec succès.</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpDeletedSuccessfully" xml:space="preserve">
+    <value>Suivi a été supprimé avec succès</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpNotAddedSuccessfully" xml:space="preserve">
+    <value>Suivi n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpNotDeletedSuccessfully" xml:space="preserve">
+    <value>Suivi n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpsExport" xml:space="preserve">
+    <value>Suivre</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpUpdatedNotSuccessfully" xml:space="preserve">
+    <value>Suivi n'a pas été mis à jour avec succès.</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpUpdatedSuccessfully" xml:space="preserve">
+    <value>Suivi a été mis à jour.</value>
+  </data>
+  <data name="Core_Group_Description" xml:space="preserve">
+    <value>La description</value>
+  </data>
+  <data name="Core_Group_GroupName" xml:space="preserve">
+    <value>Nom du groupe</value>
+  </data>
+  <data name="Core_Group_Members" xml:space="preserve">
+    <value>Nombre de personnes</value>
+  </data>
+  <data name="Core_Group_Responsible" xml:space="preserve">
+    <value>Le responsable</value>
+  </data>
+  <data name="Core_Group_Thegroupexists" xml:space="preserve">
+    <value>Le groupe existe déja</value>
+  </data>
+  <data name="Core_Group_GroupDeletedSuccessfully" xml:space="preserve">
+    <value>Le groupe a été supprimé avec succès</value>
+  </data>
+  <data name="Core_Group_GroupHasSchedules" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer ce groupe parce qu'il est utilisé dans les événements</value>
+  </data>
+  <data name="Core_Group_GroupNotAddedSuccessfully" xml:space="preserve">
+    <value>Groupe n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="Core_Group_GroupNotDeletedSuccessfully" xml:space="preserve">
+    <value>Groupe n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="Core_Group_GroupNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Groupe n'a pas été mis à jour avec succès</value>
+  </data>
+  <data name="Core_Group_GroupUpdatedSuccessfully" xml:space="preserve">
+    <value>Groupe  a été mis à jour avec succès</value>
+  </data>
+  <data name="Core_Group_SelectGroups" xml:space="preserve">
+    <value>Pas dans un groupe</value>
+  </data>
+  <data name="Core_Import_IncorrectMarriageDateFormat" xml:space="preserve">
+    <value>Mauvais format de date du mariage.</value>
+  </data>
+  <data name="Core_Import_BirthDateFormatInCorrect" xml:space="preserve">
+    <value>Mauvais format de date de naissance.</value>
+  </data>
+  <data name="Core_Import_DownloadFile" xml:space="preserve">
+    <value>Télécharger le fichier modèle</value>
+  </data>
+  <data name="Core_Import_Errors" xml:space="preserve">
+    <value>Erreurs / Avertissements</value>
+  </data>
+  <data name="Core_Import_FirstNameRequired" xml:space="preserve">
+    <value>Le premier nom est des données requises</value>
+  </data>
+  <data name="Core_Import_DownloadTemplate" xml:space="preserve">
+    <value>Télécharger le modèle</value>
+  </data>
+  <data name="Core_Import_Members" xml:space="preserve">
+    <value>Importer les personnes</value>
+  </data>
+  <data name="Core_Import_Contactss" xml:space="preserve">
+    <value>Importer les contacts</value>
+  </data>
+  <data name="Core_Import_Attendance" xml:space="preserve">
+    <value>Importer la présence</value>
+  </data>
+  <data name="Core_Import_ImportLabel" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="Core_Import_ImportMembers" xml:space="preserve">
+    <value>Importer les personnes</value>
+  </data>
+  <data name="Core_Import_IncorrectCity" xml:space="preserve">
+    <value>Province invalid</value>
+  </data>
+  <data name="Core_Import_InCorrectEngagmentDateFormat" xml:space="preserve">
+    <value>Mauvais format de date engagment.</value>
+  </data>
+  <data name="Core_Import_IncorrectGender" xml:space="preserve">
+    <value>Le type est invalid</value>
+  </data>
+  <data name="Core_Import_IncorrectMobile" xml:space="preserve">
+    <value>Mobile est invalid</value>
+  </data>
+  <data name="Core_Import_InvalidEmail" xml:space="preserve">
+    <value>E-mail est invalid</value>
+  </data>
+  <data name="Core_Import_SecoundNameRequired" xml:space="preserve">
+    <value>Le deuxième nom est des données requises</value>
+  </data>
+  <data name="Core_Import_Uploaddatafile" xml:space="preserve">
+    <value>Choisir le dossier</value>
+  </data>
+  <data name="Core_Import_ImportFile" xml:space="preserve">
+    <value>Les groupes et les données de notes ne seront pas mis à jour si une personne existe déjà.</value>
+  </data>
+  <data name="Core_Import_Next" xml:space="preserve">
+    <value>Suivant</value>
+  </data>
+  <data name="Core_Import_Upload" xml:space="preserve">
+    <value>S'il vous plaît télécharger le fichier de données.</value>
+  </data>
+  <data name="Core_Import_Finish" xml:space="preserve">
+    <value>terminer</value>
+  </data>
+  <data name="Core_Import_FinishBlock" xml:space="preserve">
+    <value>Vos données ont été importées avec succès</value>
+  </data>
+  <data name="Core_Import_IncorrectSocialStatus" xml:space="preserve">
+    <value>Le statut social est incorrect</value>
+  </data>
+  <data name="Core_Import_ReachedTheMaximumNumberOfMembers" xml:space="preserve">
+    <value>Nous allons importer {0} et mettre {1} à jour en raison de votre formule d'abonnement.</value>
+  </data>
+  <data name="Core_Import_NotSupportForMobileMsg" xml:space="preserve">
+    <value>Cette fonctionnalité n'est pas disponible sur mobile. S'il vous plaît utiliser la copie Web sur votre ordinateur pour saisir des données</value>
+  </data>
+  <data name="Core_Import_ImportConfirmation" xml:space="preserve">
+    <value>Vous avez {{1}} Avertissement. Etes-vous sûr de vouloir l' ignorer et importer les données?</value>
+  </data>
+  <data name="Core_Import_ImportMemberStatus" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="Core_Import_NotesAboutImport" xml:space="preserve">
+    <value>Notes sur comment importer lles personnes du fichier Excel.</value>
+  </data>
+  <data name="Core_Import_FirstNote" xml:space="preserve">
+    <value>S'il vous plaît utiliser le modèle fourni pour importer vos données. L'application ne prend pas en charge modèle personnalisé.</value>
+  </data>
+  <data name="Core_Import_ThirdNote" xml:space="preserve">
+    <value>Seuls les prénoms et noms deuxième sont nécessaires dans le modèle.</value>
+  </data>
+  <data name="Core_Import_FourthNote" xml:space="preserve">
+    <value>Vous pouvez importer de la feuille exportée de la page de la personne pour mettre à jour les données de votre personne actuelle.</value>
+  </data>
+  <data name="Core_Import_FivthNote" xml:space="preserve">
+    <value>Veulliez nous contacter par e-mail (&lt;a href="mailto:info@chmeetings.com"&gt;info@chmeetings.com&lt;/a&gt;) pour vous aider à résoudre les problèmes liés à l'importation. Nous mettons à jour régulièrement le programme d'importation pour le rendre meilleur et plus facile.</value>
+  </data>
+  <data name="Core_Import_SixthNote" xml:space="preserve">
+    <value>S'il vous plaît assurez-vous de définir le pays et la province/la ville pour le service avant d'importer les données</value>
+  </data>
+  <data name="Core_Import_GeneralError" xml:space="preserve">
+    <value>Erreur dans le chargement du fichier! S'il vous plaît suivez nos instructions.</value>
+  </data>
+  <data name="Core_Import_IncorrectJoinDateFormat" xml:space="preserve">
+    <value>Mauvais format de date de rejoindre</value>
+  </data>
+  <data name="Core_Invoice_AddInvoice" xml:space="preserve">
+    <value>Ajouter facture</value>
+  </data>
+  <data name="Core_Invoice_Amount" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="Core_Invoice_Invoices" xml:space="preserve">
+    <value>Les factures</value>
+  </data>
+  <data name="Core_Invoice_StartDate" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="Core_Invoice_Details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="Core_Invoice_IsPaid" xml:space="preserve">
+    <value>Payé</value>
+  </data>
+  <data name="Core_Invoice_NotPaid" xml:space="preserve">
+    <value>Impayé</value>
+  </data>
+  <data name="Core_Invoice_InvoiceType" xml:space="preserve">
+    <value>Type de facture</value>
+  </data>
+  <data name="Core_Invoice_SMS" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Core_Invoice_Subscription" xml:space="preserve">
+    <value>Abonnement</value>
+  </data>
+  <data name="Core_Invoice_InvoiceStatus" xml:space="preserve">
+    <value>État de la facture</value>
+  </data>
+  <data name="Core_Invoice_PaidOn" xml:space="preserve">
+    <value>Date de paiement</value>
+  </data>
+  <data name="Core_Invoice_PaymentNotes" xml:space="preserve">
+    <value>Remarques de paiement</value>
+  </data>
+  <data name="Core_Invoice_StartDateEndDateValidationMessage" xml:space="preserve">
+    <value>Date de début doit être antérieure à la date de fin.</value>
+  </data>
+  <data name="Core_Member_Church" xml:space="preserve">
+    <value>Église</value>
+  </data>
+  <data name="Core_Member_EducationPlace" xml:space="preserve">
+    <value>École</value>
+  </data>
+  <data name="Core_Member_EngagementDate" xml:space="preserve">
+    <value>Date d'engagement</value>
+  </data>
+  <data name="Core_Member_Facebook" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Core_Member_FatherName" xml:space="preserve">
+    <value>Prêtre</value>
+  </data>
+  <data name="Core_Member_FirstName" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Core_Member_FourthName" xml:space="preserve">
+    <value>Nom quatrième</value>
+  </data>
+  <data name="Core_Member_Gender" xml:space="preserve">
+    <value>Le genre</value>
+  </data>
+  <data name="Core_Member_Job" xml:space="preserve">
+    <value>Profession</value>
+  </data>
+  <data name="Core_Member_MarriageDate" xml:space="preserve">
+    <value>Date du mariage</value>
+  </data>
+  <data name="Core_Member_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Core_Member_Phone" xml:space="preserve">
+    <value>Téléphone fixe</value>
+  </data>
+  <data name="Core_Member_SecondName" xml:space="preserve">
+    <value>Second nom</value>
+  </data>
+  <data name="Core_Member_SocialStatus" xml:space="preserve">
+    <value>État civil</value>
+  </data>
+  <data name="Core_Member_TalentsAndHobbies" xml:space="preserve">
+    <value>Talents et loisirs</value>
+  </data>
+  <data name="Core_Member_ThirdName" xml:space="preserve">
+    <value>Troisième Nom</value>
+  </data>
+  <data name="Core_Member_WorkPlace" xml:space="preserve">
+    <value>Employeur</value>
+  </data>
+  <data name="Core_Member_Qualification" xml:space="preserve">
+    <value>Qualifications</value>
+  </data>
+  <data name="Core_Member_Family" xml:space="preserve">
+    <value>Famille</value>
+  </data>
+  <data name="Core_Member_Rate" xml:space="preserve">
+    <value>Taux de participation</value>
+  </data>
+  <data name="Core_Member_MemberHasUserAccountDeleteHisUserFirst" xml:space="preserve">
+    <value>Cette personne a une compte d'utilisateur S'il vous plaît supprimer son compte d'utilisateur d'abord</value>
+  </data>
+  <data name="Epideacon" xml:space="preserve">
+    <value>Epideacon</value>
+  </data>
+  <data name="Archdeacon" xml:space="preserve">
+    <value>Archidiacre</value>
+  </data>
+  <data name="Core_Member_BishopDonor" xml:space="preserve">
+    <value>Évêque donateur</value>
+  </data>
+  <data name="Cantor" xml:space="preserve">
+    <value>Chantre</value>
+  </data>
+  <data name="Core_Member_Deacon" xml:space="preserve">
+    <value>Diacre</value>
+  </data>
+  <data name="DeaconRank" xml:space="preserve">
+    <value>Diacon</value>
+  </data>
+  <data name="Ognostis" xml:space="preserve">
+    <value>Ognostis</value>
+  </data>
+  <data name="Core_Member_Rank" xml:space="preserve">
+    <value>Rang</value>
+  </data>
+  <data name="Core_Member_EducationType" xml:space="preserve">
+    <value>Niveau d'éducation</value>
+  </data>
+  <data name="Core_Member_CreationDate" xml:space="preserve">
+    <value>Date de jointure</value>
+  </data>
+  <data name="Core_Member_GroupName" xml:space="preserve">
+    <value>Nom du groupe</value>
+  </data>
+  <data name="Core_Member_LastAccessDate" xml:space="preserve">
+    <value>Dernière date d'accès</value>
+  </data>
+  <data name="Core_Member_MembersNotTransferredSuccessfully" xml:space="preserve">
+    <value>Les personnes ne sont pas transférés avec succès</value>
+  </data>
+  <data name="Core_Member_MembersTransferredSuccessfully" xml:space="preserve">
+    <value>Les personnes ont été transférés avec succès</value>
+  </data>
+  <data name="Core_Member_TransferBetweenTheSameGroup" xml:space="preserve">
+    <value>Les transferts dans le même groupe ne sont pas permis.</value>
+  </data>
+  <data name="Core_Member_MemberNoteDeletedSuccessfully" xml:space="preserve">
+    <value>La note a été supprimé avec succès</value>
+  </data>
+  <data name="Core_Member_MemberNoteNotDeletedSuccessfully" xml:space="preserve">
+    <value>La note n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="Core_Member_MemberNoteAddedSuccessfully" xml:space="preserve">
+    <value>Note a été ajouté avec succès</value>
+  </data>
+  <data name="Core_Member_MemberNoteNotAddedSuccessfully" xml:space="preserve">
+    <value>Note n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="Core_Member_MemberNoteNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Remarque n'a pas été mis à jour avec succès.</value>
+  </data>
+  <data name="Core_Member_MemberNoteUpdatedSuccessfully" xml:space="preserve">
+    <value>Remqraue a été mis à jour avec succès observé</value>
+  </data>
+  <data name="Core_Member_MaximumNumberOfMembers" xml:space="preserve">
+    <value>Vous avez atteint le nombre maximum de personnes</value>
+  </data>
+  <data name="Core_Member_AdvancedSettingsSearchSaved" xml:space="preserve">
+    <value>Recherche a été enregistré avec succès.</value>
+  </data>
+  <data name="Core_Member_MembersAddedToGroupSuccessfully" xml:space="preserve">
+    <value>Recherche a été enregistré avec succès.</value>
+  </data>
+  <data name="Core_Member_MembersNotAddedToGroupSuccessfully" xml:space="preserve">
+    <value>Les membres ne sont pas ajoutés avec succès à des groupes</value>
+  </data>
+  <data name="Core_Member_BulkdDeletedNotSuccessfully" xml:space="preserve">
+    <value>Les membres ont pas été supprimés avec succès</value>
+  </data>
+  <data name="Core_Member_BulkdDeletedSuccessfully" xml:space="preserve">
+    <value>{0} personne(s) supprimés avec succès.</value>
+  </data>
+  <data name="Core_Member_JoinDate" xml:space="preserve">
+    <value>Date d'inscription</value>
+  </data>
+  <data name="Core_Report_BirthdaysReport" xml:space="preserve">
+    <value>Rapport des anniversaires</value>
+  </data>
+  <data name="Core_Report_ChildCount" xml:space="preserve">
+    <value>Nombre d'enfants</value>
+  </data>
+  <data name="Core_Report_FemalesCount" xml:space="preserve">
+    <value>Nombre de femmes</value>
+  </data>
+  <data name="Core_Report_FollowupReport" xml:space="preserve">
+    <value>Rapport de suivi</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="Core_Report_MalesCount" xml:space="preserve">
+    <value>Le nombre d'hommes</value>
+  </data>
+  <data name="Core_Report_MarriageReport" xml:space="preserve">
+    <value>Rapport de la date du mariage</value>
+  </data>
+  <data name="Core_Report_MembersCount" xml:space="preserve">
+    <value>Nombre de personnes</value>
+  </data>
+  <data name="Core_Report_Month" xml:space="preserve">
+    <value>Mois</value>
+  </data>
+  <data name="Core_Report_Monthly" xml:space="preserve">
+    <value>Mensuel</value>
+  </data>
+  <data name="Core_Report_Months" xml:space="preserve">
+    <value>Mois</value>
+  </data>
+  <data name="Core_Report_OlderCount" xml:space="preserve">
+    <value>Nombre de personnes âgées</value>
+  </data>
+  <data name="Core_Report_OneMonth" xml:space="preserve">
+    <value>1 mois</value>
+  </data>
+  <data name="Core_Report_TwoMonths" xml:space="preserve">
+    <value>2 mois</value>
+  </data>
+  <data name="Core_Report_Yearly" xml:space="preserve">
+    <value>Annuel</value>
+  </data>
+  <data name="Core_Report_YouthCount" xml:space="preserve">
+    <value>Nombre de jeunes</value>
+  </data>
+  <data name="Core_Report_Last" xml:space="preserve">
+    <value>Dernier</value>
+  </data>
+  <data name="Core_Report_FollowedUp" xml:space="preserve">
+    <value>Suivi terminé</value>
+  </data>
+  <data name="Core_Report_NotFollowedUp" xml:space="preserve">
+    <value>Pas un suivi</value>
+  </data>
+  <data name="Core_Report_LateConfessionMembers" xml:space="preserve">
+    <value>Rapport des personnes retardataires à la confession</value>
+  </data>
+  <data name="Core_SMS_CreatedBy" xml:space="preserve">
+    <value>Créé par</value>
+  </data>
+  <data name="Core_SMS_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Core_SMS_Recipients" xml:space="preserve">
+    <value>Les bénéficiaires</value>
+  </data>
+  <data name="Communication_SendDate" xml:space="preserve">
+    <value>Date d'envoi</value>
+  </data>
+  <data name="Core_SMS_SMSTitle" xml:space="preserve">
+    <value>Rapport des messages</value>
+  </data>
+  <data name="Communication_RecipientsCount" xml:space="preserve">
+    <value>Les bénéficiaires</value>
+  </data>
+  <data name="Core_SMS_Service" xml:space="preserve">
+    <value>Le service</value>
+  </data>
+  <data name="Confessions_Confession_LastConfessionDate" xml:space="preserve">
+    <value>Date de la dernière confession</value>
+  </data>
+  <data name="Confessions_Confession_ConfessionDate" xml:space="preserve">
+    <value>Date de la confession</value>
+  </data>
+  <data name="Confessions_ConfessionWaiting_Age" xml:space="preserve">
+    <value>Âge</value>
+  </data>
+  <data name="Confessions_ConfessionWaiting_LastConfessionDate" xml:space="preserve">
+    <value>Date de la dernière confession</value>
+  </data>
+  <data name="Confessions_ConfessionWaiting_MemberName" xml:space="preserve">
+    <value>Nom de la personne</value>
+  </data>
+  <data name="Confessions_ConfessionWaiting_WaitingTime" xml:space="preserve">
+    <value>Temps d'attente</value>
+  </data>
+  <data name="Confessions_Dashboard_Confessions" xml:space="preserve">
+    <value>Confessions</value>
+  </data>
+  <data name="Confessions_Dashboard_CountOfWaitingMembers" xml:space="preserve">
+    <value>liste d'attente</value>
+  </data>
+  <data name="Confessions_Dashboard_InThisMonth" xml:space="preserve">
+    <value>Durant ce mois</value>
+  </data>
+  <data name="Confessions_Dashboard_InThisYear" xml:space="preserve">
+    <value>Cette année</value>
+  </data>
+  <data name="Confessions_Dashboard_Marriage" xml:space="preserve">
+    <value>Date du mariage</value>
+  </data>
+  <data name="Confessions_Dashboard_Today" xml:space="preserve">
+    <value>Aujourd'hui</value>
+  </data>
+  <data name="Confessions_Report_ConfessionReport" xml:space="preserve">
+    <value>Rapport de confession</value>
+  </data>
+  <data name="Confessions_SpiritualExercise_SpiritualExerciseTitle" xml:space="preserve">
+    <value>Exercices spirituels</value>
+  </data>
+  <data name="Meetings_Dashboard_Members" xml:space="preserve">
+    <value>Personnes</value>
+  </data>
+  <data name="Meetings_Dashboard_Absentees" xml:space="preserve">
+    <value>Absents
+</value>
+  </data>
+  <data name="Meetings_Dashboard_Attendees" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="Meetings_Dashboard_BirthDate" xml:space="preserve">
+    <value>Anniversaires</value>
+  </data>
+  <data name="Meetings_Dashboard_CompareLastMeetingWithBeforeLastMeeting" xml:space="preserve">
+    <value>La comparaison avec l'événement précédent</value>
+  </data>
+  <data name="Meetings_Dashboard_DoneFollowUps" xml:space="preserve">
+    <value>Suivis Terminé </value>
+  </data>
+  <data name="Meetings_Dashboard_InThisMonth" xml:space="preserve">
+    <value>Durant ce mois</value>
+  </data>
+  <data name="Meetings_Dashboard_InThisYear" xml:space="preserve">
+    <value>Cette année</value>
+  </data>
+  <data name="Meetings_Dashboard_LastMeeting" xml:space="preserve">
+    <value>Dernier événement</value>
+  </data>
+  <data name="Meetings_Dashboard_NewCommers" xml:space="preserve">
+    <value>Les nouveaux arrivants</value>
+  </data>
+  <data name="Meetings_Dashboard_NewMembers" xml:space="preserve">
+    <value>De nouvelles personnes</value>
+  </data>
+  <data name="Meetings_Dashboard_PendingFollowups" xml:space="preserve">
+    <value>Suivis en attente </value>
+  </data>
+  <data name="Meetings_Dashboard_Schedules" xml:space="preserve">
+    <value>Événements</value>
+  </data>
+  <data name="Meetings_Dashboard_Today" xml:space="preserve">
+    <value>Aujourd'hui</value>
+  </data>
+  <data name="Meetings_Dashboard_TotalCountOfGroups" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="Meetings_Dashboard_Users" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="Meetings_Report_InstanceReport" xml:space="preserve">
+    <value>Rapport de l'événement</value>
+  </data>
+  <data name="Meetings_Report_SearchTopic" xml:space="preserve">
+    <value>Recherche par thème, nom</value>
+  </data>
+  <data name="Meetings_Report_SessionsReport" xml:space="preserve">
+    <value>Rapport de séances</value>
+  </data>
+  <data name="Meetings_Report_StartDate" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="Meetings_EventReport_Attended" xml:space="preserve">
+    <value>A participé</value>
+  </data>
+  <data name="Meetings_EventReport_AttendedAllMeetings" xml:space="preserve">
+    <value>Participé à tous les événements</value>
+  </data>
+  <data name="Meetings_EventReport_DecreaseAttendanceRate" xml:space="preserve">
+    <value>Diminution du taux de fréquentation</value>
+  </data>
+  <data name="Meetings_EventReport_IncreaseAttendanceRate" xml:space="preserve">
+    <value>Augmentation du taux de fréquentation</value>
+  </data>
+  <data name="Meetings_EventReport_NotAttendAnyMeeting" xml:space="preserve">
+    <value>N'a pas assisté à aucun événement</value>
+  </data>
+  <data name="Meetings_EventReport_SameAttendanceRate" xml:space="preserve">
+    <value>Le même taux de fréquentation</value>
+  </data>
+  <data name="Meetings_EventReport_Sum" xml:space="preserve">
+    <value>Somme</value>
+  </data>
+  <data name="Meetings_Schedules_Attendance" xml:space="preserve">
+    <value>Participation</value>
+  </data>
+  <data name="Meetings_Schedules_AttendanceAddedSuccessfully" xml:space="preserve">
+    <value>La fréquentation a été ajouté avec succès</value>
+  </data>
+  <data name="Meetings_Schedules_AttendanceSumColumn" xml:space="preserve">
+    <value>Somme</value>
+  </data>
+  <data name="Meetings_Schedules_EndTime" xml:space="preserve">
+    <value>Temps de fin</value>
+  </data>
+  <data name="Meetings_Schedules_MemberId" xml:space="preserve">
+    <value>Orateur</value>
+  </data>
+  <data name="Meetings_Schedules_ScheduleDay" xml:space="preserve">
+    <value>Événement</value>
+  </data>
+  <data name="Meetings_Schedules_ScheduleName" xml:space="preserve">
+    <value>Sujet</value>
+  </data>
+  <data name="Meetings_Schedules_SchedulesCount" xml:space="preserve">
+    <value>Le nombre de participants</value>
+  </data>
+  <data name="Meetings_Schedules_Time" xml:space="preserve">
+    <value>Temps</value>
+  </data>
+  <data name="Meetings_Schedules_Topic" xml:space="preserve">
+    <value>Sujet</value>
+  </data>
+  <data name="Meetings_Schedules_WithoutName" xml:space="preserve">
+    <value>Événement sans titre</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="Core_Import_IncorrectZipCode" xml:space="preserve">
+    <value>Code de ZIP est trop long.</value>
+  </data>
+  <data name="Core_Setting_ManageMemberFields_ConfigurationsSavedSuccessfully" xml:space="preserve">
+    <value>Paramètres sauvegardés avec succès.</value>
+  </data>
+  <data name="Import_Undifiend_Column_Name" xml:space="preserve">
+    <value>Prénom et Nom sont nécessaires et nous ne pouvions pas les trouver dans la feuille.</value>
+  </data>
+  <data name="Core_Setting_ManageMemberFields_ConfigurationsNotSavedSuccessfully" xml:space="preserve">
+    <value>Réglage n'ont pas été mis à jour avec succès.</value>
+  </data>
+  <data name="Import_Unknown_Columns" xml:space="preserve">
+    <value>Le système n'a pas pu identifier  &lt;strong&gt; {} &lt;/strong&gt; colonnes. S'il vous plaît assurez-vous d'utiliser le même nom de colonne dans la feuille de modèle.</value>
+  </data>
+  <data name="Confessions_Confession_NextConfessionDate" xml:space="preserve">
+    <value>Date de la confession suivante</value>
+  </data>
+  <data name="Confessions_Dashboard_CountOfLateConfessionsMembers" xml:space="preserve">
+    <value>Confesseurs retardataires</value>
+  </data>
+  <data name="Core_Member_MemberId" xml:space="preserve">
+    <value>ID de la personne</value>
+  </data>
+  <data name="AttendanceImportedSuccessfully" xml:space="preserve">
+    <value>La fréquentation a été introduit avec succès</value>
+  </data>
+  <data name="RoleAddedSuccessfully" xml:space="preserve">
+    <value>Rôle ajouté avec succès.</value>
+  </data>
+  <data name="RoleDeletedSuccessfully" xml:space="preserve">
+    <value>Rôle supprimé avec succès.</value>
+  </data>
+  <data name="RoleNotAddedSuccessfully" xml:space="preserve">
+    <value>Rôle pas ajouté avec succès.</value>
+  </data>
+  <data name="RoleNotDeletedSuccessfully" xml:space="preserve">
+    <value>Rôle pas supprimé avec succès.</value>
+  </data>
+  <data name="RoleNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Rôle pas mis à jour avec succès.</value>
+  </data>
+  <data name="RoleUpdatedSuccessfully" xml:space="preserve">
+    <value>Rôle mis à jour avec succès.</value>
+  </data>
+  <data name="OwnerDescription" xml:space="preserve">
+    <value>A toutes les autorisations sur tous les fonction du système charactere y inclu la suppression du compte ou la mise à jour de l'utilisateur propriétaire</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>à</value>
+  </data>
+  <data name="Event_Details" xml:space="preserve">
+    <value>Détails de l'évènement</value>
+  </data>
+  <data name="Event_Instances" xml:space="preserve">
+    <value>Dates de l'événement</value>
+  </data>
+  <data name="SmsIntegrationSavedSuccessfully" xml:space="preserve">
+    <value>Intégration des messages enregistré avec succès.</value>
+  </data>
+  <data name="SmsNotIntegrationSavedSuccessfully" xml:space="preserve">
+    <value>Erreur d'enregistrement des intégration de texte, s'il vous plaît vérifier vos entrées.</value>
+  </data>
+  <data name="Core_Integration" xml:space="preserve">
+    <value>Intégrations</value>
+  </data>
+  <data name="Core_Member_SSN" xml:space="preserve">
+    <value>SSN</value>
+  </data>
+  <data name="FailedToCopyMembers" xml:space="preserve">
+    <value>Personne (s) n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="FailedToMoveMembers" xml:space="preserve">
+    <value>Personne (s) n'a pas été déplacé avec succès</value>
+  </data>
+  <data name="MembersCopiedSuccessfully" xml:space="preserve">
+    <value>{{x}} personne (s) ont été ajouté avec succès</value>
+  </data>
+  <data name="MembersMovedSuccessfully" xml:space="preserve">
+    <value>{{x}} membre a été transféré avec succès</value>
+  </data>
+  <data name="Core_Member_BulkdUpdatedSuccessfully" xml:space="preserve">
+    <value>Personnes mise à jour avec succès</value>
+  </data>
+  <data name="MembersMergedSuccessfully" xml:space="preserve">
+    <value>Les membres fusionnés avec succès</value>
+  </data>
+  <data name="Core_Member_NotBulkdUpdatedSuccessfully" xml:space="preserve">
+    <value>Personnes n'ont pas été mises à jour avec succès</value>
+  </data>
+  <data name="MembersNotMergedSuccessfully" xml:space="preserve">
+    <value>Personnes n'ont pas été fusionnés avec succès</value>
+  </data>
+  <data name="Core_Merge_Members" xml:space="preserve">
+    <value>Fusion des personnes</value>
+  </data>
+  <data name="Core_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="Core_NotificationNotSendSuccessfully" xml:space="preserve">
+    <value>Notification n'a pas été envoyé avec succès.</value>
+  </data>
+  <data name="Core_NotificationSendSuccessfully" xml:space="preserve">
+    <value>La notification a été envoyé avec succès.</value>
+  </data>
+  <data name="Subscription" xml:space="preserve">
+    <value>Abonnement</value>
+  </data>
+  <data name="Core_Member_FamilyId" xml:space="preserve">
+    <value>ID de la famille</value>
+  </data>
+  <data name="Core_Report_UnknownCount" xml:space="preserve">
+    <value>Inconnues</value>
+  </data>
+  <data name="Core_Member_FamilyRole" xml:space="preserve">
+    <value>Rôle dans la famille</value>
+  </data>
+  <data name="Child" xml:space="preserve">
+    <value>Enfant</value>
+  </data>
+  <data name="GrandParent" xml:space="preserve">
+    <value>Grand-parent</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="Primary" xml:space="preserve">
+    <value>Primaire</value>
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Époux</value>
+  </data>
+  <data name="Core_Member_BaptismDate" xml:space="preserve">
+    <value>Date du baptême</value>
+  </data>
+  <data name="Core_Import_FamilyNote" xml:space="preserve">
+    <value>Vous pouvez importer la famille en définissant la colonne ID famille à quoi que ce soit, pour regrouper les membres de la famille, et le rôle de la famille peuvent être (primaire, conjoint, enfant).</value>
+  </data>
+  <data name="Core_Member_BaptismLocation" xml:space="preserve">
+    <value>Lieu du baptême</value>
+  </data>
+  <data name="Core_Import_IncorrectBaptismDateFormat" xml:space="preserve">
+    <value>Date du baptême est incorrect</value>
+  </data>
+  <data name="Core_Authorize_Title" xml:space="preserve">
+    <value>Non autorisé</value>
+  </data>
+  <data name="MultipleRoles" xml:space="preserve">
+    <value>Multirôle</value>
+  </data>
+  <data name="ErrorInDeletingUsersRoles" xml:space="preserve">
+    <value>Erreur de suppression du rôle d'utilisateur </value>
+  </data>
+  <data name="ErrorInUpdatingUsersRoles" xml:space="preserve">
+    <value>Erreur de mise à jour des rôles des utilisateurs</value>
+  </data>
+  <data name="EmailAddedSuccessfully" xml:space="preserve">
+    <value>E-mail envoyé avec succès.</value>
+  </data>
+  <data name="Core_Email_BonusReceived" xml:space="preserve">
+    <value>Bonus de ChMeetings reçu!</value>
+  </data>
+  <data name="EmailNotAddedSuccessfully" xml:space="preserve">
+    <value>Email pas ajouté avec succès.</value>
+  </data>
+  <data name="Core_Email_EmailTitle" xml:space="preserve">
+    <value>Rapport des messages électroniques</value>
+  </data>
+  <data name="EmailIsAlreadyVerified" xml:space="preserve">
+    <value>Le courrier électronique est déjà vérifié</value>
+  </data>
+  <data name="EmailsSubject" xml:space="preserve">
+    <value>Sujet</value>
+  </data>
+  <data name="MembersCouldNotBeMerged" xml:space="preserve">
+    <value>Impossible de fusionner deux personnes avec deux utilisateurs différents</value>
+  </data>
+  <data name="ShouldRemoveChildrenMinistries" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer un service contenant des sous-services. S'il vous plaît supprimer les sous-services d'abbord</value>
+  </data>
+  <data name="DoneOn" xml:space="preserve">
+    <value>date de fin</value>
+  </data>
+  <data name="GradeEighth" xml:space="preserve">
+    <value>9ème année</value>
+  </data>
+  <data name="GradeEleventh" xml:space="preserve">
+    <value>12ème année</value>
+  </data>
+  <data name="GradeFifth" xml:space="preserve">
+    <value>6ème année</value>
+  </data>
+  <data name="GradeFirst" xml:space="preserve">
+    <value>2ème année</value>
+  </data>
+  <data name="GradeFourth" xml:space="preserve">
+    <value>5ème année</value>
+  </data>
+  <data name="GradeGraduated" xml:space="preserve">
+    <value>Diplômé</value>
+  </data>
+  <data name="GradeKindergarten" xml:space="preserve">
+    <value>1ère année</value>
+  </data>
+  <data name="GradeNinth" xml:space="preserve">
+    <value>10ème année</value>
+  </data>
+  <data name="GradePreKindergarten" xml:space="preserve">
+    <value>Réception</value>
+  </data>
+  <data name="GradeSecond" xml:space="preserve">
+    <value>3ème année</value>
+  </data>
+  <data name="GradeSeventh" xml:space="preserve">
+    <value>8ème année</value>
+  </data>
+  <data name="GradeSixth" xml:space="preserve">
+    <value>7ème année</value>
+  </data>
+  <data name="GradeTenth" xml:space="preserve">
+    <value>11ème année</value>
+  </data>
+  <data name="GradeThird" xml:space="preserve">
+    <value>4ème année</value>
+  </data>
+  <data name="GradeTwelfth" xml:space="preserve">
+    <value>13ème année</value>
+  </data>
+  <data name="Core_Member_Grades" xml:space="preserve">
+    <value>Année d'étude</value>
+  </data>
+  <data name="Core_Import_IncorrectGrade" xml:space="preserve">
+    <value>L'année scolaire est incorrecte</value>
+  </data>
+  <data name="Core_Member_GraduationYear" xml:space="preserve">
+    <value>Année d'obtention du diplôme</value>
+  </data>
+  <data name="Core_Import_CanAddGraduationYearForGraduated" xml:space="preserve">
+    <value>Vous pouvez ajouter l'année de l'obtention du diplôme seulement pour les diplômés.</value>
+  </data>
+  <data name="Core_Import_GraduationYearAboveNextYear" xml:space="preserve">
+    <value>Vous ne pouvez pas ajouter l'année de fin d'études plus tard que l'année prochaine.</value>
+  </data>
+  <data name="Core_Import_InncorrectGraduationFormate" xml:space="preserve">
+    <value>Format incorrect de l'année de  l'obtention des diplômes.</value>
+  </data>
+  <data name="Core_Import_IncorrectDeaconFormat" xml:space="preserve">
+    <value>Format de diacre incorrect</value>
+  </data>
+  <data name="Core_Import_IncorrectDeaconRank" xml:space="preserve">
+    <value>Rang de diacre incorrect</value>
+  </data>
+  <data name="MemberArchivedSuccessfully" xml:space="preserve">
+    <value>L'utilisateur a été transféré à l'archive avec succès</value>
+  </data>
+  <data name="MemberNotArchivedSuccessfully" xml:space="preserve">
+    <value>L'utilisateur n'est pas été transféré à l'archive avec succès</value>
+  </data>
+  <data name="Core_Member_BulkdArchivedNotSuccessfully" xml:space="preserve">
+    <value>Une erreur dans le transfert des membres à l'archive</value>
+  </data>
+  <data name="Core_Member_BulkdArchivedSuccessfully" xml:space="preserve">
+    <value>{0} personnes ont été transférés à l'archive</value>
+  </data>
+  <data name="ArchivedMembers" xml:space="preserve">
+    <value>Rapport de personnes archivé</value>
+  </data>
+  <data name="Core_Member_BulkdRestoreSuccessfully" xml:space="preserve">
+    <value>{0} personnes restauré avec succès</value>
+  </data>
+  <data name="Core_Member_BulkRestoreNotSuccessfully" xml:space="preserve">
+    <value>Erreur dans la restauration des personnes</value>
+  </data>
+  <data name="MemberNotRestoredSuccessfully" xml:space="preserve">
+    <value>Erreur dans la restauration des personnes</value>
+  </data>
+  <data name="MemberRestoredSuccessfully" xml:space="preserve">
+    <value>Personne a été restaurés avec succès</value>
+  </data>
+  <data name="Church_Ministry_Name" xml:space="preserve">
+    <value>Eglise / Nom de Ministère
+</value>
+  </data>
+  <data name="CalendarAddedSuccessfully" xml:space="preserve">
+    <value>Calendrier ajouté avec succès</value>
+  </data>
+  <data name="CalendarNotAddedSuccessfully" xml:space="preserve">
+    <value>Calendrier pas Ajouté avec succès</value>
+  </data>
+  <data name="CalendarNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Calendrier n'est pas modifié avec succès</value>
+  </data>
+  <data name="CalendarUpdatedSuccessfully" xml:space="preserve">
+    <value>Calendrier a été modifié avec succès</value>
+  </data>
+  <data name="CalendarNotDeletedSuccessfully" xml:space="preserve">
+    <value>Calendrier pas supprimé avec succès</value>
+  </data>
+  <data name="Meetings_Dashboard_MyPendingFollowups" xml:space="preserve">
+    <value>Suivis en attente</value>
+  </data>
+  <data name="followupNotificationAssignMsg" xml:space="preserve">
+    <value>Vous avez été chargé de suivre</value>
+  </data>
+  <data name="NotificationSettings" xml:space="preserve">
+    <value>Paramètres de notification</value>
+  </data>
+  <data name="Enum_NotificationTypes_Birthday" xml:space="preserve">
+    <value>Anniversaires</value>
+  </data>
+  <data name="Enum_NotificationTypes_FollowUp" xml:space="preserve">
+    <value>Suivre</value>
+  </data>
+  <data name="Enum_NotificationTypes_NewMember" xml:space="preserve">
+    <value>Nouvelle personne</value>
+  </data>
+  <data name="Enum_NotificationTypes_System" xml:space="preserve">
+    <value>Système</value>
+  </data>
+  <data name="AddUserOnDemoError" xml:space="preserve">
+    <value>Vous ne pouvez pas ajouter plus de 3 utilisateurs sur le compte demo</value>
+  </data>
+  <data name="Core_Member_LastName" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="Core_Member_MiddleName" xml:space="preserve">
+    <value>Deuxième nom</value>
+  </data>
+  <data name="Core_Invoice_Upgrade" xml:space="preserve">
+    <value>Mise à niveau vers</value>
+  </data>
+  <data name="FollowupAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpActionAddedSuccessfully" xml:space="preserve">
+    <value>L'action de suivi a été ajoutée avec succès</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpActionDeletedSuccessfully" xml:space="preserve">
+    <value>L'action de suivi supprimée avec succès</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpActionNotDeleted" xml:space="preserve">
+    <value>L'action de suivi pas suprimée avec succès</value>
+  </data>
+  <data name="Core_FollowUp_FollowUpActionUpdatedSuccessfully" xml:space="preserve">
+    <value>L'action de suivi mise à jour avec succès</value>
+  </data>
+  <data name="Meetings_Schedules_LastAttendedDate" xml:space="preserve">
+    <value>La dernière date d'un événement</value>
+  </data>
+  <data name="Communication_SMSTotalCount" xml:space="preserve">
+    <value>Crédits</value>
+  </data>
+  <data name="Core_Import_CustomFieldInvalid" xml:space="preserve">
+    <value>Invalide {0}</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Prix</value>
+  </data>
+  <data name="Core_Import_CustomFieldsColumn" xml:space="preserve">
+    <value>Donnée supplémentaire</value>
+  </data>
+  <data name="FormSavedSuccessfully" xml:space="preserve">
+    <value>Le formulaire a été sauvguardé avec succès</value>
+  </data>
+  <data name="FormNotSavedSuccessfully" xml:space="preserve">
+    <value>Le formulaire n'a pas été sauvguardé avec succès</value>
+  </data>
+  <data name="FormsNoNameFound" xml:space="preserve">
+    <value>Aucune donnée des Nom ou mobile ou e-mail trouvée</value>
+  </data>
+  <data name="Forms" xml:space="preserve">
+    <value>Formes</value>
+  </data>
+  <data name="Core_UploadFile" xml:space="preserve">
+    <value>Fichier téléchargé avec succès</value>
+  </data>
+  <data name="Core_UploadFileFailed" xml:space="preserve">
+    <value>Fichier n'a pas été téléchargé avec succès</value>
+  </data>
+  <data name="Core_InvalidFile" xml:space="preserve">
+    <value>Fichier non valide</value>
+  </data>
+  <data name="ErrorInLinkingUserEntry" xml:space="preserve">
+    <value>Erreur de liaison de la réponse de l'utilisateur à une personne</value>
+  </data>
+  <data name="SaveUserEntryError" xml:space="preserve">
+    <value>Erreur lors de l'enregistrement de votre réponse</value>
+  </data>
+  <data name="EventParticipant_AddedSuccessfully" xml:space="preserve">
+    <value>Participant ajouté avec succès</value>
+  </data>
+  <data name="EventParticipant_NotAdded" xml:space="preserve">
+    <value>Participant pas ajouté avec succès</value>
+  </data>
+  <data name="EventParticipant_DeletedSuccessfully" xml:space="preserve">
+    <value>Participant supprimé avec succès</value>
+  </data>
+  <data name="EventParticipant_NotDeleted" xml:space="preserve">
+    <value>Participant pas supprimé avec succès</value>
+  </data>
+  <data name="VoiceMessage" xml:space="preserve">
+    <value>Participant pas supprimé avec succès</value>
+  </data>
+  <data name="Core_Import_RemovedMarriageDate" xml:space="preserve">
+    <value>Suppression de la date du mariage à cause de l'état civil</value>
+  </data>
+  <data name="Contributions_FundAddedSuccessfully" xml:space="preserve">
+    <value>Fonds ajouté avec succès</value>
+  </data>
+  <data name="Core_Import_RemovedEngagementDate" xml:space="preserve">
+    <value>Date d'engagement supprimée à cause de l'état civil</value>
+  </data>
+  <data name="Core_Member_MembersRemovedFromGroupSuccessfully" xml:space="preserve">
+    <value>Les personnes ont été retirés des groupes avec succès</value>
+  </data>
+  <data name="Contributions_FundNotAddedSuccessfully" xml:space="preserve">
+    <value>Fonds pas ajouté avec succès</value>
+  </data>
+  <data name="Core_Member_MembersNotRemovedFromGroupSuccessfully" xml:space="preserve">
+    <value>Les personnes n'ont pas été retirés des groupes avec succès</value>
+  </data>
+  <data name="Enum_FundType_Income" xml:space="preserve">
+    <value>Le revenu</value>
+  </data>
+  <data name="Enum_FundType_Expense" xml:space="preserve">
+    <value>Frais</value>
+  </data>
+  <data name="Contributions_FundDeletedSuccessfully" xml:space="preserve">
+    <value>Fonds supprimé avec succès</value>
+  </data>
+  <data name="Contributions_FundNotDeletedSuccessfully" xml:space="preserve">
+    <value>Fonds n'a pas été supprimé avec succès</value>
+  </data>
+  <data name="Contributions_FundUpdatedSuccessfully" xml:space="preserve">
+    <value>Fonds mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_FundNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Fonds n'a pas été mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_ContributionAddedSuccessfully" xml:space="preserve">
+    <value>Contribution ajouté avec succès</value>
+  </data>
+  <data name="Contributions_ContributionNotAddedSuccessfully" xml:space="preserve">
+    <value>Contribution pas ajouté avec succès</value>
+  </data>
+  <data name="Contributions_ContributionNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Contribution pas mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_ContributionUpdatedSuccessfully" xml:space="preserve">
+    <value>Contribution mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_ContributionNotDeletedSuccessfully" xml:space="preserve">
+    <value>Contribution pas supprimé avec succès</value>
+  </data>
+  <data name="Contributions_ContributionDeletedSuccessfully" xml:space="preserve">
+    <value>Contribution supprimé avec succès</value>
+  </data>
+  <data name="Contributions_BatchAddedSuccessfully" xml:space="preserve">
+    <value>Lot ajouté avec succès</value>
+  </data>
+  <data name="Contributions_BatchNotAddedSuccessfully" xml:space="preserve">
+    <value>Lot pas ajouté avec succès</value>
+  </data>
+  <data name="Contributions_BatchNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Lot pas mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_BatchUpdatedSuccessfully" xml:space="preserve">
+    <value>Lot mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_Funds" xml:space="preserve">
+    <value>Fonds</value>
+  </data>
+  <data name="Contributions_Batches" xml:space="preserve">
+    <value>Lots</value>
+  </data>
+  <data name="Contributions_AllContributions" xml:space="preserve">
+    <value>Toutes les contributions</value>
+  </data>
+  <data name="Contributions_BatchContributionsDeletedSuccessfully" xml:space="preserve">
+    <value>Toutes les lots de contributions supprimés avec succès</value>
+  </data>
+  <data name="Contributions_BatchContributionsNotDeletedSuccessfully" xml:space="preserve">
+    <value>Toutes les lots de contributions n'ont pas été pas supprimés avec succès</value>
+  </data>
+  <data name="Contributions_OnlineGiving" xml:space="preserve">
+    <value>Dons en ligne</value>
+  </data>
+  <data name="Contributions_Fund" xml:space="preserve">
+    <value>Fonds</value>
+  </data>
+  <data name="Contributions_Batch" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="Contributions_PaymentMethod" xml:space="preserve">
+    <value>Mode de paiement</value>
+  </data>
+  <data name="Contributions_Amount" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="TemplateSavedSuccessfully" xml:space="preserve">
+    <value>Document (lettre) a été ajouté avec succès</value>
+  </data>
+  <data name="TemplateNotSavedSuccessfully" xml:space="preserve">
+    <value>Documents (lettre) n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="TemplateUpdatedSuccessfully" xml:space="preserve">
+    <value>Document (lettre) a été mis à jour avec succès</value>
+  </data>
+  <data name="Core_Import_Contributions" xml:space="preserve">
+    <value>Giving importation</value>
+  </data>
+  <data name="Contributions_Import_MissedMandatoryFields" xml:space="preserve">
+    <value>Le colonne de montant est nécessaire et nous ne pouvions pas le trouver dans la feuille</value>
+  </data>
+  <data name="WebUrlNotUpdated" xml:space="preserve">
+    <value>URL pas mis à jour!</value>
+  </data>
+  <data name="ChosenUrlExist" xml:space="preserve">
+    <value>L'URL web choisie existe déjà!</value>
+  </data>
+  <data name="EmailTemplateSavedSuccessfully" xml:space="preserve">
+    <value>Le courriel a été ajouté avec succès</value>
+  </data>
+  <data name="EmailTemplateUpdatedSuccessfully" xml:space="preserve">
+    <value>Le courriel a été modifié avec succès</value>
+  </data>
+  <data name="FormPersonsAddedSuccessfully" xml:space="preserve">
+    <value>{{X}} personne (s) ont été ajouté avec succès</value>
+  </data>
+  <data name="Contributions_PaymentMethodCash" xml:space="preserve">
+    <value>En espèces</value>
+  </data>
+  <data name="FormPersonsFailedToAdd" xml:space="preserve">
+    <value>Personnes pas Ajouté avec succès</value>
+  </data>
+  <data name="Contributions_PaymentMethodCheck" xml:space="preserve">
+    <value>Vérifier</value>
+  </data>
+  <data name="Contributions_PaymentMethodCard" xml:space="preserve">
+    <value>Carte</value>
+  </data>
+  <data name="Contributions_ImportInvalidAmount" xml:space="preserve">
+    <value>Montant non valide à la ligne {0}</value>
+  </data>
+  <data name="Contributions_ImportInvalidBatch" xml:space="preserve">
+    <value>lot incorrect à la ligne {0}</value>
+  </data>
+  <data name="Contributions_ImportInvalidFund" xml:space="preserve">
+    <value>Fonds incorrect à la ligne {0}</value>
+  </data>
+  <data name="Contributions_ImportInvalidDate" xml:space="preserve">
+    <value>Date non valide à la ligne {0}</value>
+  </data>
+  <data name="Contributions_ImportInvalidPaymentMethod" xml:space="preserve">
+    <value>Mode de paiement incorrect à la ligne {0}</value>
+  </data>
+  <data name="Contributions_ImportedSuccessfully" xml:space="preserve">
+    <value>Contributions importées avec succès</value>
+  </data>
+  <data name="Contributions_NotImportedSuccessfully" xml:space="preserve">
+    <value>Les contributions ne sont pas importés avec succès</value>
+  </data>
+  <data name="PaymentsAndCredit" xml:space="preserve">
+    <value>Paiements et crédit</value>
+  </data>
+  <data name="WebUrlNotValid" xml:space="preserve">
+    <value>URL non valide!</value>
+  </data>
+  <data name="FormHasSchedules" xml:space="preserve">
+    <value>Ce formulaire ne peut être supprimé car il est utilisé dans les événements</value>
+  </data>
+  <data name="FormResponseDeletedSuccessfully" xml:space="preserve">
+    <value>Réponse supprimé avec succès</value>
+  </data>
+  <data name="FormResponseNotDeletedSuccessfully" xml:space="preserve">
+    <value>Réponse pas supprimé avec succès</value>
+  </data>
+  <data name="FormDeletedSuccessfully" xml:space="preserve">
+    <value>Formulaire supprimé avec succès</value>
+  </data>
+  <data name="FormNotDeletedSuccessfully" xml:space="preserve">
+    <value>Formulaire pas supprimé avec succès</value>
+  </data>
+  <data name="Form_Submission_Date" xml:space="preserve">
+    <value>Date de soumission</value>
+  </data>
+  <data name="DeleteStripeCustomerSuccessfully" xml:space="preserve">
+    <value>Paramètres de paiement supprimés avec succès</value>
+  </data>
+  <data name="FailedPayment" xml:space="preserve">
+    <value>Paiement échoué</value>
+  </data>
+  <data name="PaymentSettingsNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Paramètres de paiement pas mis à jour avec succès</value>
+  </data>
+  <data name="PaymentSettingsUpdatedSuccessfully" xml:space="preserve">
+    <value>Paramètres de paiement mis à jour avec succès</value>
+  </data>
+  <data name="SuccessPayment" xml:space="preserve">
+    <value>Le paiement a été fait avec succès</value>
+  </data>
+  <data name="Core_UpdatedSuccessfully" xml:space="preserve">
+    <value>Vos données ont été mis à jour</value>
+  </data>
+  <data name="Core_NotUpdatedSuccessfully" xml:space="preserve">
+    <value>Vos données n'ont pas été mis à jour avec succès</value>
+  </data>
+  <data name="FormSubmissions" xml:space="preserve">
+    <value>Les soumissions de formulaire</value>
+  </data>
+  <data name="MemberAccess" xml:space="preserve">
+    <value>Accès aux membres</value>
+  </data>
+  <data name="MemberAccess_MyProfile" xml:space="preserve">
+    <value>Mon profil</value>
+  </data>
+  <data name="Meeting_PaySmsPackage" xml:space="preserve">
+    <value>Acheter {0} messages</value>
+  </data>
+  <data name="MemberAccess_Home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="Member_Unsubscribed_Successfully" xml:space="preserve">
+    <value>Votre abonnement a été annulé avec succès</value>
+  </data>
+  <data name="Member_NotUnsubscribed_Successfully" xml:space="preserve">
+    <value>Votre abonnement n'a pas été annulée avec succès</value>
+  </data>
+  <data name="Enum_Status_Failed" xml:space="preserve">
+    <value>Échoué</value>
+  </data>
+  <data name="EmailOwner" xml:space="preserve">
+    <value>{0} Email</value>
+  </data>
+  <data name="MobileOwner" xml:space="preserve">
+    <value>Mobile de {0}</value>
+  </data>
+  <data name="App_NotAvailable" xml:space="preserve">
+    <value>Indisponible</value>
+  </data>
+  <data name="GivingTemplateEmail" xml:space="preserve">
+    <value>&lt;p&gt;Dear [FIRST_NAME],&lt;/p&gt;
+
+&lt;p&gt;Nous tenons à exprimer notre gratitude pour votre générosité de soutenir [CHURCH_NAME]. Votre engagement personnel a été extrêmement utile et nous a permis d'atteindre notre objectif&lt;/p&gt;
+
+&lt;p&gt;Nous avons reçu votre contribution de [AMOUNT] avec succès.&lt;/p&gt;
+
+&lt;p&gt;Merci de la part de nous tous.&lt;/p&gt;
+
+&lt;p&gt;Cordialement,&lt;br /&gt; [CHURCH_NAME]&lt;/p&gt;</value>
+  </data>
+  <data name="GivingThanksMsg" xml:space="preserve">
+    <value>Merci pour le don! Nous avons reçu votre contribution avec succès et apprécions sincèrement votre générosité.</value>
+  </data>
+  <data name="StripeConnectedSuccessfully" xml:space="preserve">
+    <value>Connecté avec succès</value>
+  </data>
+  <data name="GivingEmailSubject" xml:space="preserve">
+    <value>Nous vous remercions pour votre don à {0}</value>
+  </data>
+  <data name="NotificationHistoryReport" xml:space="preserve">
+    <value>Rapport des notifications</value>
+  </data>
+  <data name="MemberAccess_MyGiving" xml:space="preserve">
+    <value>Mes dons</value>
+  </data>
+  <data name="PrintingListsFamilyName" xml:space="preserve">
+    <value>Famille {0}</value>
+  </data>
+  <data name="AddressPart1" xml:space="preserve">
+    <value>Ligne d'adresse</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="AddressPart2" xml:space="preserve">
+    <value>Ville / Province / Zip</value>
+  </data>
+  <data name="MailingLabel" xml:space="preserve">
+    <value>Rapport des maisons</value>
+  </data>
+  <data name="Contributions" xml:space="preserve">
+    <value>Contributions</value>
+  </data>
+  <data name="LastWeek" xml:space="preserve">
+    <value>La semaine dernière</value>
+  </data>
+  <data name="ReferralBonus" xml:space="preserve">
+    <value>Bonus recommandé</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="PendingMembers" xml:space="preserve">
+    <value>Membres en attente</value>
+  </data>
+  <data name="PendingApprovalAcceptedSuccessfully" xml:space="preserve">
+    <value>Personne a accepté avec succès</value>
+  </data>
+  <data name="PendingApprovalNotAcceptedSuccessfully" xml:space="preserve">
+    <value>Personne pas accepté avec succès</value>
+  </data>
+  <data name="PendingApprovalNotRejectedSuccessfully" xml:space="preserve">
+    <value>Personne pas rejetée avec succès</value>
+  </data>
+  <data name="PendingApprovalRejectedSuccessfully" xml:space="preserve">
+    <value>Personne rejetée avec succès</value>
+  </data>
+  <data name="PersonLinkedSuccessfully" xml:space="preserve">
+    <value>Personne lié rejetée avec succès</value>
+  </data>
+  <data name="PersonUnLinkedSuccessfully" xml:space="preserve">
+    <value>Personne dissociées avec succès</value>
+  </data>
+  <data name="PersonNotLinkedSuccessfully" xml:space="preserve">
+    <value>Personne pas dissociées avec succès</value>
+  </data>
+  <data name="MemberRequests" xml:space="preserve">
+    <value>Les demandes de membres</value>
+  </data>
+  <data name="OwnerAdminEmailRequired" xml:space="preserve">
+    <value>E-mail du Propriétaire /  Admin est requis</value>
+  </data>
+  <data name="UsernameLength" xml:space="preserve">
+    <value>Nom d'utilisateur doit être d'au moins 6 caractères</value>
+  </data>
+  <data name="Booking_CanceledSuccessfully" xml:space="preserve">
+    <value>La réservation de l'événement a été annulé avec succès</value>
+  </data>
+  <data name="App_LoginCredential" xml:space="preserve">
+    <value>Credential du login</value>
+  </data>
+  <data name="Booking_NotCanceledSuccessfully" xml:space="preserve">
+    <value>réservation pas annulé avec succès</value>
+  </data>
+  <data name="Booking_AddedSuccessfully" xml:space="preserve">
+    <value>L'événement a été réservé avec succès</value>
+  </data>
+  <data name="Booking_NotAddedSuccessfully" xml:space="preserve">
+    <value>L'événement n'a pas été réservé avec succès</value>
+  </data>
+  <data name="Booking_NotAddedSuccessfullyDueToLimitSeats" xml:space="preserve">
+    <value>L'événement n'a pas été réservé avec succès. Le nombre de billets disponibles est {0}</value>
+  </data>
+  <data name="MyBookings" xml:space="preserve">
+    <value>Mes Réservations</value>
+  </data>
+  <data name="Invited" xml:space="preserve">
+    <value>Invité</value>
+  </data>
+  <data name="InvitationFailed" xml:space="preserve">
+    <value>Échec de l'invitation</value>
+  </data>
+  <data name="LoggedIn" xml:space="preserve">
+    <value>Connecté</value>
+  </data>
+  <data name="FamilyNotRegisteredSuccessfully" xml:space="preserve">
+    <value>Votre famille n'a pas été ajouté avec succès</value>
+  </data>
+  <data name="SSNInUse" xml:space="preserve">
+    <value>Ce SSN existe déja</value>
+  </data>
+  <data name="InvitationSmsTemplate" xml:space="preserve">
+    <value>[LOGIN_URL]
+Nom d'utilisateur: [USER_NAME]
+Mot de passe: [PASSWORD]</value>
+  </data>
+  <data name="MemberRequest_FlagNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Marque pas mise à jour avec succès</value>
+  </data>
+  <data name="InvitationEmailTemplate" xml:space="preserve">
+    <value>&lt;div class="ch-username"&gt;Cher [FIRST_NAME], &lt;/div&gt;
+&lt;p&gt;&lt;b&gt;[CHURCH_NAME]&lt;/b&gt; a créé un compte pour vous.&lt;/p&gt;
+&lt;p&gt;Voici vos informations de connexion:&lt;/p&gt;
+&lt;table&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;URL de login:&lt;/td&gt;
+            &lt;td&gt;[LOGIN_URL]&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Nom de l'utilisateur:&lt;/td&gt;
+            &lt;td&gt;[USER_NAME]&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Mot de passe de l'utilisateur:&lt;/td&gt;
+            &lt;td&gt;[PASSWORD]&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</value>
+  </data>
+  <data name="SSNDuplicateInFamily" xml:space="preserve">
+    <value>Vous avez un SSN dupliqué dans votre famille</value>
+  </data>
+  <data name="MemberAccess_RegisterThanksTemplate" xml:space="preserve">
+    <value>Votre inscription a réussi! &lt;br/&gt; Votre mot de passe et des instructions supplémentaires ont été envoyés à votre adresse e-mail.</value>
+  </data>
+  <data name="Booking_ConfirmBookingEmailSubject" xml:space="preserve">
+    <value>Confirmation de l'inscription pour {0} - {1}</value>
+  </data>
+  <data name="Sibling" xml:space="preserve">
+    <value>Frère / Soeur</value>
+  </data>
+  <data name="Contributions_PaymentMethods" xml:space="preserve">
+    <value>Méthodes de payement</value>
+  </data>
+  <data name="Contributions_PaymentMethodAddedSuccessfully" xml:space="preserve">
+    <value>Mode de paiement ajouté avec succès</value>
+  </data>
+  <data name="Contributions_PaymentMethodUpdatedSuccessfully" xml:space="preserve">
+    <value>Mode de paiement mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_PaymentMethodNotAddedSuccessfully" xml:space="preserve">
+    <value>Mode de paiement PAS ajouté avec succès</value>
+  </data>
+  <data name="Contributions_PaymentMethodNotUpdatedSuccessfully" xml:space="preserve">
+    <value>Mode de paiement PAS mis à jour avec succès</value>
+  </data>
+  <data name="Contributions_PaymentMethodNotDeletedSuccessfully" xml:space="preserve">
+    <value>Mode de paiement pas supprimé avec succès</value>
+  </data>
+  <data name="Contributions_PaymentMethodDeletedSuccessfully" xml:space="preserve">
+    <value>Mode de paiement supprimé avec succès</value>
+  </data>
+  <data name="LoginPartial_PeopleCountReportMenu" xml:space="preserve">
+    <value>Rapport du Nombre de membres</value>
+  </data>
+  <data name="Contributions_FundOrFunds" xml:space="preserve">
+    <value>Fonds</value>
+  </data>
+  <data name="Core_Report_NewMembersCountThisMonth" xml:space="preserve">
+    <value>Les nouveaux membres ce mois-ci</value>
+  </data>
+  <data name="Account_Log" xml:space="preserve">
+    <value>Rapport du login des personne (Bêta)</value>
+  </data>
+  <data name="Attendance_CheckInSuccessfully" xml:space="preserve">
+    <value>La fréquentation a été enregistré avec succès</value>
+  </data>
+  <data name="Attendance_NotCheckInSuccessfully" xml:space="preserve">
+    <value>La fréquentation est pas enregistré avec succès</value>
+  </data>
+  <data name="Core_Member_NativeName" xml:space="preserve">
+    <value>Nom natif</value>
+  </data>
+  <data name="Contributions_EnvelopeNumber" xml:space="preserve">
+    <value>Nombre de l'enveloppe </value>
+  </data>
+  <data name="Contributions_EnvelopeAddedSuccessfully" xml:space="preserve">
+    <value>Enveloppe ajouté avec succès</value>
+  </data>
+  <data name="Contributions_EnvelopeNotAddedSuccessfully" xml:space="preserve">
+    <value>Enveloppe pas ajouté avec succès</value>
+  </data>
+  <data name="Contributions_EnvelopeDeletedSuccessfully" xml:space="preserve">
+    <value>Enveloppe supprimé avec succès</value>
+  </data>
+  <data name="Contributions_EnvelopeNotDeletedSuccessfully" xml:space="preserve">
+    <value>Enveloppe pas supprimé avec succès</value>
+  </data>
+  <data name="Contributions_NewContribution" xml:space="preserve">
+    <value>Nouvelle contribution</value>
+  </data>
+  <data name="Contributions_Envelopes" xml:space="preserve">
+    <value>Enveloppes</value>
+  </data>
+  <data name="DB_Account_BulkInviteUsers" xml:space="preserve">
+    <value>Inviter des utilisateurs</value>
+  </data>
+  <data name="DB_Account_CreateUser" xml:space="preserve">
+    <value>Créer un utilisateur</value>
+  </data>
+  <data name="DB_Account_DeleteMembership" xml:space="preserve">
+    <value>Supprimer l'utilisateur</value>
+  </data>
+  <data name="DB_Account_DeleteUserRole" xml:space="preserve">
+    <value>Supprimer rôle de l'utilisateur</value>
+  </data>
+  <data name="DB_Accounts_RegisterExistingMember" xml:space="preserve">
+    <value>Enregistrer un membre existant</value>
+  </data>
+  <data name="DB_Accounts_RegisterFamilyMembers" xml:space="preserve">
+    <value>Créer un compte</value>
+  </data>
+  <data name="DB_Accounts_RegisterNewMember" xml:space="preserve">
+    <value>Créer un compte</value>
+  </data>
+  <data name="DB_Import_ImportDataFile" xml:space="preserve">
+    <value>Importer des personnes</value>
+  </data>
+  <data name="DB_Member_Create" xml:space="preserve">
+    <value>Créer personne</value>
+  </data>
+  <data name="DB_Member_Delete" xml:space="preserve">
+    <value>Supprimer personne </value>
+  </data>
+  <data name="DB_Member_FixDuplicateMembers" xml:space="preserve">
+    <value>fusionner personne</value>
+  </data>
+  <data name="DB_Member_FixMergeMemberManually" xml:space="preserve">
+    <value>fusion manuel</value>
+  </data>
+  <data name="DB_Member_ListMembers" xml:space="preserve">
+    <value>Mise à jour en lot de Personnes</value>
+  </data>
+  <data name="DB_Member_ToggleArchiveMember" xml:space="preserve">
+    <value>Archiver / Désarchiver personne</value>
+  </data>
+  <data name="DB_Member_Update" xml:space="preserve">
+    <value>Mettre personne à jour</value>
+  </data>
+  <data name="DB_MemberAccessSettings_AcceptPendingApproval" xml:space="preserve">
+    <value>Accepter personne</value>
+  </data>
+  <data name="DB_MemberAccessSettings_ConnectPendingApprovalToMember" xml:space="preserve">
+    <value>Connecter personne</value>
+  </data>
+  <data name="DB_Profile_Update" xml:space="preserve">
+    <value>Mettre mon profil à jour </value>
+  </data>
+  <data name="DB_Calendars_BIRTHDAY" xml:space="preserve">
+    <value>Anniversaire</value>
+  </data>
+  <data name="DB_Calendars_MYFOLLOWUPS" xml:space="preserve">
+    <value>Mon Suivis</value>
+  </data>
+  <data name="DB_Calendars_MEETING" xml:space="preserve">
+    <value>Réunion</value>
+  </data>
+  <data name="DB_Calendars_CONFERENCE" xml:space="preserve">
+    <value>Conférence</value>
+  </data>
+  <data name="DB_Calendars_TRIP" xml:space="preserve">
+    <value>Voyage</value>
+  </data>
+  <data name="DB_FollowUpActions_CARE" xml:space="preserve">
+    <value>Suivre</value>
+  </data>
+  <data name="DB_SecurityConstructs_ENABLECONFESSIONSORGANIZER" xml:space="preserve">
+    <value>Activation de l'organisation des confessions</value>
+  </data>
+  <data name="DB_SecurityConstructs_ENABLECONTRIBUTIONS" xml:space="preserve">
+    <value>Activer contributions</value>
+  </data>
+  <data name="DB_SecurityConstructs_ENABLEDIVIDEMEMBERSTOGROUPS" xml:space="preserve">
+    <value>Permettre aux membres de se diviser pour groupes</value>
+  </data>
+  <data name="DB_SecurityConstructs_ENABLEEVENTSMANAGEMENT" xml:space="preserve">
+    <value>Activer la gestion des événements</value>
+  </data>
+  <data name="DB_SecurityConstructs_ENABLEFOLLOWUP" xml:space="preserve">
+    <value>Activer le suivi</value>
+  </data>
+  <data name="DB_SecurityConstructs_ENABLESPIRITUALEXERCISESFORCONFESSORS" xml:space="preserve">
+    <value>Activer les exercices spirituels pour les confesseurs</value>
+  </data>
+  <data name="DB_SecurityConstructs_ENABLEWAITINGLISTFORCONFESSORS" xml:space="preserve">
+    <value>Activer la liste d'attente pour les confesseurs</value>
+  </data>
+  <data name="DB_SecurityConstructs_ACCOUNTOWNER" xml:space="preserve">
+    <value>Propriétaire du compte</value>
+  </data>
+  <data name="DB_SecurityConstructs_CONFESSIONS" xml:space="preserve">
+    <value>Confessions</value>
+  </data>
+  <data name="DB_SecurityConstructs_CONFESSIONSNOTES" xml:space="preserve">
+    <value>Remarques de Confessions</value>
+  </data>
+  <data name="DB_SecurityConstructs_CONTRIBUTIONS" xml:space="preserve">
+    <value>Contributions</value>
+  </data>
+  <data name="DB_SecurityConstructs_EVENTS" xml:space="preserve">
+    <value>Événements</value>
+  </data>
+  <data name="DB_SecurityConstructs_FOLLOWUP" xml:space="preserve">
+    <value>Suivre</value>
+  </data>
+  <data name="DB_SecurityConstructs_FORMS" xml:space="preserve">
+    <value>Formes</value>
+  </data>
+  <data name="DB_SecurityConstructs_GROUPS" xml:space="preserve">
+    <value>Groupes</value>
+  </data>
+  <data name="DB_SecurityConstructs_MEMBERACCESS" xml:space="preserve">
+    <value>Accès Membres (Nouvelles demandes de membres)</value>
+  </data>
+  <data name="DB_SecurityConstructs_MINISTRY" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="DB_SecurityConstructs_MYPROFILE" xml:space="preserve">
+    <value>Mon profil</value>
+  </data>
+  <data name="DB_SecurityConstructs_PEOPLE" xml:space="preserve">
+    <value>Personnes</value>
+  </data>
+  <data name="DB_SecurityConstructs_PERSONNOTES" xml:space="preserve">
+    <value>Notes de l'utilisateur</value>
+  </data>
+  <data name="DB_SecurityConstructs_SPRITUALEXERCISES" xml:space="preserve">
+    <value>Exercices spritual</value>
+  </data>
+  <data name="DB_SecurityConstructs_USERS" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="DB_SecurityConstructs_WAITINGLIST" xml:space="preserve">
+    <value>Liste d'attente</value>
+  </data>
+  <data name="DB_SecurityPermissions_ACCEPT" xml:space="preserve">
+    <value>Acceptation</value>
+  </data>
+  <data name="DB_SecurityPermissions_ADD" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="DB_SecurityPermissions_ARCHIVE" xml:space="preserve">
+    <value>Archiver</value>
+  </data>
+  <data name="DB_SecurityPermissions_CANCELREG" xml:space="preserve">
+    <value>Annuler Reg.</value>
+  </data>
+  <data name="DB_SecurityPermissions_CHECKIN" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="DB_SecurityPermissions_DELETE" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="DB_SecurityPermissions_EDIT" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="DB_SecurityPermissions_EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="DB_SecurityPermissions_ENVELOPES" xml:space="preserve">
+    <value>Enveloppes</value>
+  </data>
+  <data name="DB_SecurityPermissions_EXPORT" xml:space="preserve">
+    <value>Exportation</value>
+  </data>
+  <data name="DB_SecurityPermissions_IMPORT" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="DB_SecurityPermissions_LETTER" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="DB_SecurityPermissions_LINK" xml:space="preserve">
+    <value>Lien</value>
+  </data>
+  <data name="DB_SecurityPermissions_MERGE" xml:space="preserve">
+    <value>Fusionner</value>
+  </data>
+  <data name="DB_SecurityPermissions_MYGIVING" xml:space="preserve">
+    <value>Mes dons</value>
+  </data>
+  <data name="DB_SecurityPermissions_NOTIFICATION" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="DB_SecurityPermissions_ONLINEGIVING" xml:space="preserve">
+    <value>dons en ligne</value>
+  </data>
+  <data name="DB_SecurityPermissions_REGISTRATION" xml:space="preserve">
+    <value>Réservation</value>
+  </data>
+  <data name="DB_SecurityPermissions_REJECT" xml:space="preserve">
+    <value>Refus</value>
+  </data>
+  <data name="DB_SecurityPermissions_SETTINGS" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="DB_SecurityPermissions_SMS" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="DB_SecurityPermissions_VIEW" xml:space="preserve">
+    <value>Vue</value>
+  </data>
+  <data name="DB_SecurityPermissions_VIEWATT." xml:space="preserve">
+    <value>Voir présences</value>
+  </data>
+  <data name="DB_SecurityRole_ADMIN" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="DB_SecurityRole_OWNER" xml:space="preserve">
+    <value>Propriétaire</value>
+  </data>
+  <data name="DB_SecurityRole_MEMBER" xml:space="preserve">
+    <value>Membre</value>
+  </data>
+  <data name="ContributionStatement" xml:space="preserve">
+    <value>&lt;p&gt;&lt;strong&gt;[CHURCH_NAME] | Déclaration donner&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;[NAME]&lt;/strong&gt;&lt;br /&gt;[ADDRESS]&lt;br /&gt;&lt;br /&gt;Merci pour votre don fidèle de [TOTAL] que nous avons reçu entre [START_DATE] et [END_DATE]. Aucun bien ou service n'a été fourni en échange de votre contribution autre que des avantages religieux immatériels.&lt;br /&gt;&lt;br /&gt;[CONTRIBUTION_LIST]&amp;nbsp;&lt;/p&gt;</value>
+  </data>
+  <data name="ContributionStatementListHeader" xml:space="preserve">
+    <value>&lt;Strong&gt;
+&lt;span width="100 %" style="display: block; height: auto; overflow: hidden;"&gt;
+&lt;span style = "margin-left: 8px; float:left; display:inline-block; width:19%;"&gt;Date &lt;/span&gt;
+&lt;span style = "float:left; display:[DISPLAY]; width:19%;"&gt;Nom &lt;/span&gt;
+&lt;span style = "float:left; display:inline-block; width:19%;"&gt;Méthode &lt;/span&gt;
+&lt;span style = "float:left; display:inline-block; width:19%;"&gt;Fond &lt;/span&gt;
+&lt;span style = "float:left; display:inline-block; width:19%; text-align: right; padding-right:10px;"&gt;Montant &lt;/span&gt;
+&lt;/span&gt;
+&lt;/Strong&gt;</value>
+  </data>
+  <data name="ContributionStatemntListItemHtml" xml:space="preserve">
+    <value>&lt;span width="100% " style="display: block; height: auto; overflow: hidden; [BACKGROUND-COLOR]"&gt;
+&lt;span style = "margin-left: 8px; float:left; display:inline-block; width:19%; "&gt;[DATE] &lt;/span&gt;
+&lt;span style = "float:left; display:[DISPLAY]; width:19%; "&gt;[NAME] &lt;/span&gt;
+&lt;span style = "float:left; display:inline-block; width:19%; "&gt;[METHOD] &lt;/span&gt;
+&lt;span style = "float:left; display:inline-block; width:19%; "&gt;[FUND] &lt;/span&gt;
+&lt;span style = "float:left; display:inline-block; width:19%; text-align: right; padding-right:10px;"&gt;[AMOUNT] &lt;/span&gt;
+&lt;/span&gt;</value>
+  </data>
+  <data name="EmailLimitExceed" xml:space="preserve">
+    <value>Les e-mails ne peuvent pas être envoyés! Vous n'avez pas de crédit d'e-mails suffisant</value>
+  </data>
+  <data name="DefaultStatementEmailTemplate" xml:space="preserve">
+    <value>Cher [First Name],&lt;br /&gt;
+&lt;br /&gt;
+Vous trouverez ci-joint votre déclaration de don. Merci beaucoup pour votre généreux don.&lt;br /&gt;
+&lt;br /&gt;
+Cordialement,&lt;br /&gt;
+[Church Name]</value>
+  </data>
+  <data name="DefaultStatementEmailSubject" xml:space="preserve">
+    <value>Déclaration donner</value>
+  </data>
+  <data name="Contributions_GeneralFund" xml:space="preserve">
+    <value>Fonds général</value>
+  </data>
+  <data name="Contributions_BuildingFund" xml:space="preserve">
+    <value>Fonds de construction</value>
+  </data>
+  <data name="Contributions_YouthMinistriesFund" xml:space="preserve">
+    <value>Fonds du service des jeunes</value>
+  </data>
+  <data name="Contributions_ChildrenMinistriesFund" xml:space="preserve">
+    <value>Fonds du service des enfants</value>
+  </data>
+  <data name="Contributions_MissionsFund" xml:space="preserve">
+    <value>Fonds de Missions</value>
+  </data>
+  <data name="ConnectedSuccessfully" xml:space="preserve">
+    <value>Connecté avec succès</value>
+  </data>
+  <data name="DisconnectedSuccessfully" xml:space="preserve">
+    <value>Déconnecté avec succès</value>
+  </data>
+  <data name="NotConnectedSuccessfully" xml:space="preserve">
+    <value>Pas connecté avec succès</value>
+  </data>
+  <data name="NotDisconnectedSuccessfully" xml:space="preserve">
+    <value>Pas déconnecté avec succès</value>
+  </data>
+  <data name="DB_Member_RestoreDeletedMember" xml:space="preserve">
+    <value>Restaurer</value>
+  </data>
+  <data name="Report_DeletedPeoples" xml:space="preserve">
+    <value>Rapport sur les personnes supprimées</value>
+  </data>
+  <data name="Meetings_Schedules_UnknownAttendeesColumn" xml:space="preserve">
+    <value>Invités</value>
+  </data>
+  <data name="App_FirstNameInvalid" xml:space="preserve">
+    <value>Prénom invalide</value>
+  </data>
+  <data name="App_LastNameInvalid" xml:space="preserve">
+    <value>Nom de famille invalide</value>
+  </data>
+  <data name="App_ChurchNameInvalid" xml:space="preserve">
+    <value>Eglise / Nom du service invalide</value>
+  </data>
+  <data name="Core_Member_DoNotEmail" xml:space="preserve">
+    <value>Ne pas envoyer de courrier électronique</value>
+  </data>
+  <data name="DB_SecurityPermissions_REMOVEMEMBERS" xml:space="preserve">
+    <value>Supprimer les personnes du service</value>
+  </data>
+  <data name="DB_SecurityPermissions_ADDMEMBERS" xml:space="preserve">
+    <value>Ajouter des personnes existantes au service</value>
+  </data>
+  <data name="Meetings_Report_RecurringReport" xml:space="preserve">
+    <value>Rapport de l'événement récurrent</value>
+  </data>
+  <data name="Contributions_PaymentMethodOnline" xml:space="preserve">
+    <value>en ligne</value>
+  </data>
+  <data name="DB_SecurityRole_GroupLeader" xml:space="preserve">
+    <value>chef de groupe</value>
+  </data>
+  <data name="Core_Group_GroupHasUsers" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer ce groupe car des utilisateurs sont affectés à ce groupe</value>
+  </data>
+  <data name="Account_UsernameAlreadyExists" xml:space="preserve">
+    <value>Un compte avec ce nom d'utilisateur existe déjà</value>
+  </data>
+  <data name="Notifications_BirthdayDailyBody" xml:space="preserve">
+    <value>Vous avez {0} anniversaire(s) aujourd'hui</value>
+  </data>
+  <data name="Notifications_BirthdayMonthlyBody" xml:space="preserve">
+    <value>Vous avez {0} anniversaire(s) par mois</value>
+  </data>
+  <data name="Notifications_NewMembersBody" xml:space="preserve">
+    <value>Vous avez ajouté {0} membre(s) la semaine dernière</value>
+  </data>
+  <data name="Notifications_FollowupsBody" xml:space="preserve">
+    <value>Vous avez {0} suivis en attente aujourd'hui</value>
+  </data>
+  <data name="Account_MustUseNewPassword" xml:space="preserve">
+    <value>Vous devez utiliser un nouveau mot de passe.</value>
+  </data>
+  <data name="DB_SecurityPermissions_REPORTS" xml:space="preserve">
+    <value>Rapports</value>
+  </data>
+  <data name="DB_SecurityPermissions_ADVANCEDSEARCH" xml:space="preserve">
+    <value>Recherche Avancée</value>
+  </data>
+  <data name="DB_RegistrationPlan_CHURCHACCOUNT" xml:space="preserve">
+    <value>Compte d'église</value>
+  </data>
+  <data name="DB_RegistrationPlan_DEMOACCOUNT" xml:space="preserve">
+    <value>Compte démo</value>
+  </data>
+  <data name="DB_RegistrationPlan_FREEACCOUNT" xml:space="preserve">
+    <value>Compte gratuit</value>
+  </data>
+  <data name="DB_RegistrationPlan_LARGEACCOUNT" xml:space="preserve">
+    <value>Grand compte</value>
+  </data>
+  <data name="DB_RegistrationPlan_MEDIUMACCOUNT" xml:space="preserve">
+    <value>Compte moyen</value>
+  </data>
+  <data name="DB_RegistrationPlan_SMALLACCOUNT" xml:space="preserve">
+    <value>Petit compte</value>
+  </data>
+  <data name="DB_RegistrationPlan_UNLIMITEDACCOUNT" xml:space="preserve">
+    <value>Compte illimité</value>
+  </data>
+  <data name="Households" xml:space="preserve">
+    <value>Maisons</value>
+  </data>
+  <data name="Contributions_Overview" xml:space="preserve">
+    <value>Aperçu</value>
+  </data>
+  <data name="Contributions_TotalAmount" xml:space="preserve">
+    <value>Montant total</value>
+  </data>
+  <data name="Contributions_TotalContributors" xml:space="preserve">
+    <value>Total des contributeurs</value>
+  </data>
+  <data name="Contributions_Methods" xml:space="preserve">
+    <value>Méthodes de payement</value>
+  </data>
+  <data name="Contributions_List" xml:space="preserve">
+    <value>dons</value>
+  </data>
+  <data name="Contribution_Statement_Modified_Successfully" xml:space="preserve">
+    <value>Déclaration de contribution modifiée avec succès</value>
+  </data>
+  <data name="Contribution_Statement_Not_Modified_Successfully" xml:space="preserve">
+    <value>Déclaration de contribution non modifiée avec succès</value>
+  </data>
+  <data name="Churches" xml:space="preserve">
+    <value>Des églises</value>
+  </data>
+  <data name="ChurchSettings" xml:space="preserve">
+    <value>Paramètres de l'église</value>
+  </data>
+  <data name="ChurchDeletedSuccessfully" xml:space="preserve">
+    <value>L'église a été supprimée avec succès.</value>
+  </data>
+  <data name="Dear" xml:space="preserve">
+    <value>Bonjour</value>
+  </data>
+  <data name="Booking_CancelBookingEmailSubject" xml:space="preserve">
+    <value>Annulation de l'inscription pour {0} - {1}</value>
+  </data>
+  <data name="Account_InvalidPassword" xml:space="preserve">
+    <value>Mot de passe incorrect</value>
+  </data>
+  <data name="Account_MustPasswordNotContainName" xml:space="preserve">
+    <value>Les mots de passe ne peuvent pas contenir le nom d'utilisateur ou des parties du nom complet de l'utilisateur, comme son prénom </value>
+  </data>
+  <data name="Core_Group_Leaders" xml:space="preserve">
+    <value>Les responsables</value>
+  </data>
+  <data name="Account_UsernameAlreadyExistsForPendingMember" xml:space="preserve">
+    <value>un compte avec ce nom d'utilisateur existe déjà pour un membre en attente</value>
+  </data>
+  <data name="Core_Report_AgeUnderSix" xml:space="preserve">
+    <value>Moins de 6 ans</value>
+  </data>
+  <data name="Contributions_CheckNumber" xml:space="preserve">
+    <value>Numéro de chèque</value>
+  </data>
+  <data name="Account_InvalidResetPasswordToken" xml:space="preserve">
+    <value>Le jeton de réinitialisation du mot de passe n'est pas valide.</value>
+  </data>
+</root>
